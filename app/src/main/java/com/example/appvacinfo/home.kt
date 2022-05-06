@@ -9,6 +9,7 @@ class home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
         val button_quando_vacinar = findViewById<Button>(R.id.btn_quando_vacinar)
         val button_onde_vacinar = findViewById<Button>(R.id.btn_onde_vacinar)
         val button_vacinas = findViewById<Button>(R.id.btn_vacinas)

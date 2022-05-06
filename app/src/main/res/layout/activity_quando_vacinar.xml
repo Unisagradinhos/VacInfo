@@ -6,4 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".quandoVacinar">
 
+    <TextView
+        android:id="@+id/titulo_quando_vacinar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quando Vacinar"
+        android:textSize="40sp"
+        android:textColor="#5D1A45"
+        android:textStyle="bold"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="20dp"/>
+
+    <TextView
+        android:id="@+id/subtitulo_quando_vacinar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acompanhe o calendário de vacinação de acordo com sua idade"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_quando_vacinar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="20dp"/>
+
+    <Button
+        android:id="@+id/btn_criancas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="48dp"
+        android:text="Crianças (0 a 10 anos)"
+        android:backgroundTint="#CB5741"
+        app:layout_constraintTop_toBottomOf="@+id/subtitulo_quando_vacinar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        />
+    <Button
+        android:id="@+id/btn_adolescentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Adolescentes (11 a 19 anos)"
+        android:backgroundTint="#A94242"
+        app:layout_constraintTop_toBottomOf="@+id/btn_criancas"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        />
+    <Button
+        android:id="@+id/btn_adultos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Adultos (20 a 59 anos)"
+        android:backgroundTint="#5D1A45"
+        app:layout_constraintTop_toBottomOf="@+id/btn_adolescentes"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        />
+    <Button
+        android:id="@+id/btn_gestantes"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"
+        android:text="Gestantes"
+        android:backgroundTint="#430242"
+        app:layout_constraintTop_toBottomOf="@+id/btn_adultos"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        />
+    <Button
+        android:id="@+id/btn_idosos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Idosos"
+        android:backgroundTint="#2E032E"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gestantes"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
