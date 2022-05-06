@@ -1,0 +1,252 @@
+{
+    "take_at_birth": [
+        {
+            "name": "BCG - ID",
+            "description": "Deve ser aplicada em dose única o mais precocemente possível. Não se recomenda mais a revacinação de crianças que não apresentem cicatriz no local da aplicação após 6 meses. Comunicantes domiciliares de hanseníase, independente da forma clínica, podem receber uma segunda dose da vacina BCG (ver norma específica). Em recém-nascidos filhos de mãe que utilizaram imunossupressores na gestação, ou com história familiar de imunossupressão, a vacinação poderá ser adiada ou contraindicada.",
+            "doses": "Dose única",
+            "diseases_avoided": [
+                "Formas graves de tuberculose"
+            ]
+        },
+        {
+            "name": "Vacina hepatite B",
+            "description": "A primeira dose da vacina Hepatite B deve ser aplicada idealmente nas primeiras 12 horas de vida. A segunda dose está indicada com um ou dois meses de idade e a terceira 0, 2, 4 e 6 meses). Crianças maiores de 6 meses e adolescentes não vacinados devem receber 3 doses da vacina no esquema 0, 1 e 6 meses. A vacina combinada Hepatite A+B pode ser utilizada na primovacinação de crianças de 1 a 15 anos de idade, em 2 doses com intervalo de seis meses. Acima de 16 anos o esquema deve ser com três doses (0, 1 e 6 meses). Em circunstâncias excepcionais, em que não exista tempo suficiente para completar o esquema de vacinação padrão de 0, 1 e 6 meses, pode ser utilizado um esquema de três doses aos 0, 7 e 21 dias (esquema acelerado). Nestes casos uma quarta dose deverá ser feita, 12 meses após a primeira, para garantir a indução de imunidade em longo prazo. Recém-nascidos filhos de mães portadoras do vírus da hepatite B (HbsAg positivas) devem receber, além da vacina, a imunoglobulina específica para hepatite B (HBIG), na dose 0,5mL, até o sétimo dia de vida, preferencialmente logo ao nascer, no membro inferior contralateral da vacina. dose é realizada aos seis meses. Desde 2012, no Programa Nacional de Imunizações (PNI), a vacina combinada DTP/Hib/HB (denominada pelo Ministério da Saúde de Penta) foi incorporada no calendário aos 2, 4 e 6 meses de vida. Dessa forma, os lactentes que fazem uso desta vacina recebem quatro doses da vacina Hepatite B. Aqueles que forem vacinados em clínicas privadas podem manter o esquema de três doses, primeira ao nascimento e segunda e terceira dose aos 2 e 6 meses de idade. Nestas duas doses, podem ser utilizadas vacinas combinadas acelulares -DTPa/IPV/Hib/HB. Crianças com peso de nascimento igual ou inferior a 2 Kg ou idade gestacional < 33 semanas devem receber, obrigatoriamente, além da dose de vacina ao nascer, mais três doses da vacina, total de 4 doses.",
+            "doses": "Três ou quatro doses a partir do nascimento",
+            "diseases_avoided": [
+                "Hepatite B"
+            ]
+        }
+    ],
+    "take_at_2_months": [
+        {
+            "name": "Rotavírus",
+            "description": "A indicação é para bebês de 6 semanas até 8 meses. A primeira dose deve, obrigatoriamente, ser administrada até os 3 meses e 15 dias. E, a última dose, deve ser até os 7 meses e 29 dias.",
+            "doses": "Duas ou três doses dependendo da vacina utilizada (VR1 ou VR5). Iniciar vacinação antes das 15 semanas de vida.",
+            "diseases_avoided": [
+                "Diarreia por Rotavírus"
+            ]
+        },
+        {
+            "name": "Tríplice Bacteriana (DTPw, DTPa ou dTpa)",
+            "description": "Há dois tipos de vacinas para a proteção contra difteria, tétano e coqueluche: DTPa (vacina tríplice bacteriana acelular) e DTPw (vacina tríplice bacteriana de células inteiras). Deve-se dar preferência para a vacina DTPa. Embora sua eficácia seja semelhante à DTPw, os eventos adversos associados à sua administração são menos frequentes e menos intensos, por ser uma vacina atenuada. A segunda dose deve ser administrada aos 4 meses e terceira aos 6 meses de idade. É recomendado uma dose de reforço entre os 15 e 18 meses e outra entre 4 a 6 anos. A vacina DTPw está disponível nos postos públicos de vacinação.³",
+            "doses": "Três doses (DTPa ou DTPw) iniciando aos 2 meses de idade",
+            "diseases_avoided": [
+                "Difteria",
+                "tétano",
+                "coqueluche"
+            ]
+        },
+        {
+            "name": "Haemophilus influenzae tipo b",
+            "description": "A segunda dose deve ser tomada aos 4 meses e a terceira aos 6 meses de idade. É recomendado reforço entre os 15 e os 18 meses, principalmente se a aplicação for combinada com DTPa. Os postos públicos de vacinação oferecem somente as três primeiras doses.",
+            "doses": "Três doses iniciando aos 2 meses de idade",
+            "diseases_avoided": [
+                "Infecções pelo vírus Haemophilus influenzae tipo b"
+            ]
+        },
+        {
+            "name": "Poliomielite (vírus inativados)",
+            "description": "O esquema se completa com a segunda dose aos 4 meses e a terceira aos 6 meses de vida, com duas doses de reforço entre 15 e 18 meses e entre 4 e 6 anos de vida. Nas duas primeiras doses do esquema básico sempre aplicar a vacina poliomielite inativada (injetável).Os postos públicos de vacinação oferecem as duas primeiras doses da vacina.³",
+            "doses": "Três doses iniciando aos 2 meses de idade",
+            "diseases_avoided": [
+                "Poliomielite"
+            ]
+        },
+        {
+            "name": "Pneumocócicas conjugadas",
+            "description": "Vacinar com a Pneumocócica Conjugada o quanto antes, aos 2 meses de idade. A vacina PCV10 é recomendada até os 2 anos de idade e a PCV13 até os 5 anos. Indicada dose extra com a VPC13, com objetivo de ampliar a proteção para as crianças até 5 anos que receberam a vacina VPC10, respeitar intervalo de dois meses da última dose.Crianças e adolescentes sob risco para doenças invasivas podem receber a PCV13 até os 18 anos e, com dois meses de intervalo, a vacina polissacarídica 23 valente.Os postos públicos de vacinação oferecem as doses da PCV10.",
+            "doses": "Duas ou três doses dependendo da vacina utilizada (VPC10 ou VPC13), iniciando aos 2 meses de idade",
+            "diseases_avoided": [
+                "Pneumonia",
+                "otite",
+                "meningite",
+                "infecções causadas pelo Pneumococo"
+            ]
+        }
+    ],
+    "take_at_3_months": [
+        {
+            "name": "Meningocócicas conjugadas",
+            "description": "Recomenda-se o uso rotineiro das vacinas meningocócicas conjugadas para lactentes maiores de 2 meses de idade, crianças e adolescentes. Sempre que possível utilizar preferencialmente a vacina MenACWY pelo maior espectro de proteção, inclusive para os reforços de crianças previamente vacinadas com MenC. Crianças com esquema vacinal completo com a vacina MenC podem se beneficiar de uma dose adicional da vacina MenACWY a qualquer momento, respeitando-se um intervalo mínimo de 1 mês entre as doses. No Brasil estão licenciadas as vacinas: MenC, MenACWY-CRM e MenACWY-TT a partir de 2 meses e a vacina MenACWY-D a partir de 9 meses de vida. O esquema de doses varia conforme a vacina utilizada. MenC: duas doses, aos 3 e 5 meses de idade e reforço entre 12-15 meses. Iniciando após 1 ano de idade: dose única. MenACWY-CRM: três doses aos 3, 5 e 7 meses de idade e reforço entre 12-15 meses. Iniciando entre 7 e 23 meses de idade: 2 doses, sendo que a segunda dose deve ser obrigatoriamente aplicada após a idade de 1 ano (mínimo 2 meses de intervalo). Iniciando após os 24 meses de idade: dose única. MenACWY-TT: duas doses, aos 3 e 5 meses de idade e reforço entre 12-15 meses. Iniciando após 1 ano de idade: dose única. MenACWY-D: licenciada a partir de 9 meses de idade no esquema de duas doses entre 9 e 23 meses com 3 meses de intervalo entre elas; acima de dois anos dose única. A recomendação dedoses de reforço 5 anos após (entre 5 e 6 anos de idade para os vacinados no primeiro ano de vida) e na adolescência (a partir dos 11 anos de idade) é baseada na rápida diminuição dos títulos de anticorpos associados à proteção, evidenciada com todas as vacinas meningocócicas conjugadas. Não existem dados sobre intercambialidade entre as vacinas meningocócicas conjugadas. Entretanto, se houver necessidade de intercambiá-las, deve-se adotar o esquema com maior número de doses na primovacinação. O PNI utiliza a vacina MenC no esquema de duas doses aos 3 e 5 meses, com reforço aos 15 meses, além de uma dose adicional da vacina para adolescentes entre 11 a 14 anos.",
+            "doses": "Men ACWY - duas ou três doses a depender do fabricante,iniciando aos 3 meses de idade.Men C - duas doses iniciando aos 3 meses de idade.",
+            "diseases_avoided": [
+                "meningocócica C/ACWY"
+            ]
+        },
+        {
+            "name": "Meningocócica B",
+            "description": "",
+            "doses": "Duas doses iniciando aos 3 meses de idade",
+            "diseases_avoided": [
+                "meningocócica B"
+            ]
+        }
+    ],
+    "take_at_6_months": [
+        {
+            "name": "Influenza (gripe)",
+            "description": "Devem ser administradas duas doses com intervalo de 30 dias, no período de maior circulação do vírus (inverno), a partir dos 6 meses até os 9 anos de idade. Após a segunda dose, recomendam-se doses de reforço anuais. Os postos públicos de vacinação oferecem a vacina somente para crianças até 2 anos.",
+            "doses": "Vacinação Anual",
+            "diseases_avoided": [
+                "Gripe sazonal"
+            ]
+        }
+    ],
+    "take_at_9_months": [
+        {
+            "name": "Febre Amarela",
+            "description": "Deverão receber reforço a cada dez anos a partir da primeira dose da vacina os habitantes de áreas sob risco da doença e viajantes com destino a tais regiões.3 A vacina deve ser aplicada pelo menos dez dias antes da viagem2. É contraindicada para imunodeprimidos, exceto quando o risco de contrair a doença supera o da vacinação.A vacina está disponível nos postos públicos de vacinação³.",
+            "doses": "EM REGIÕES COM RECOMENDAÇÃO DE VACINAÇÃO - Dose única a partir dos 9 meses de idade. A recomendação de uma segunda dose, especialmente para os vacinados antes de 2 anos de idade, não é consensual,mas deve ser considerada pela possibilidade de falha vacinal.",
+            "diseases_avoided": [
+                "Febre amarela"
+            ]
+        }
+    ],
+    "take_at_12_months": [
+        {
+            "name": "Pneumocócicas conjugadas",
+            "description": "O reforço pode ser aplicado de 12 a 15 meses de idade. Os postos públicos de vacinação oferecem as doses da PCV10.",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Pneumonia",
+                "Otite",
+                "Meningite",
+                "Outras infecções causadas pelo Pneumococo"
+            ]
+        },
+        {
+            "name": "Meningocócicas conjugadas",
+            "description": "",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Previne a doença meningocócica C/ACWY"
+            ]
+        },
+        {
+            "name": "Meningocócica B",
+            "description": "",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Previne a doença meningocócica B"
+            ]
+        },
+        {
+            "name": "Tríplice viral",
+            "description": "Caso haja situação de surto de alguma dessas três doenças, a vacina pode ser antecipada, respeitando o intervalo de um mês até a segunda dose. Há a possibilidade de tomá-la em combinação com a vacina contra catapora (varicela), formando a quádrupla viral (SCR-V), quando coincidir a indicação dessas duas imunizações, mas somente em menores de 12 anos. Deve ser considerado maior risco de febre e ocorrência mais frequente de exantema após a primeira aplicação da SCR-V. A vacina está disponível nos postos públicos de vacinação.³",
+            "doses": "Duas doses a partir dos 12 meses",
+            "diseases_avoided": [
+                "Sarampo",
+                "Caxumba",
+                "Rubéola"
+            ]
+        },
+        {
+            "name": "Varicela",
+            "description": "A primeira dose da vacina deve ser aplicada aos 12 meses, mas em situação de surto, a vacina pode ser aplicada a partir dos 9 meses em crianças saudáveis. Porém, essa não é considerada uma dose válida para o calendário. Em uma situação de maior risco ou de pós-exposição, a segunda dose também pode ser antecipada, respeitando o intervalo de três meses da primeira dose. Há a possibilidade de tomá-la em combinação com a tríplice viral, formando a quádrupla viral (SCR-V), quando coincidir a indicação dessas duas imunizações, mas somente em menores de 12 anos. Após a primeira aplicação desta vacina combinada podem haver riscos aumentados para febre e ocorrências mais frequentes de exantema.",
+            "doses": "Duas doses a partir dos 12 meses",
+            "diseases_avoided": [
+                "Catapora"
+            ]
+        },
+        {
+            "name": "Hepatite A",
+            "description": "Devem ser administradas duas doses, sendo a primeira dose aos 12 meses e a segunda dose aos 18 meses de idade. A vacina não está disponível nos postos públicos de vacinação.",
+            "doses": "Duas doses a partir dos 12 meses",
+            "diseases_avoided": [
+                "Hepatite A"
+            ]
+        },
+        {
+            "name": "Poliomielite oral (vírus vivos atenuados)",
+            "description": "As doses orais, que utilizam vacina atenuada, passam a ser permitidas. A criança pode tomar uma dose a partir dos seis meses até os cinco anos. Os postos públicos de vacinação oferecem a VOP (vacina oral atenuada) durante as campanhas nacionais de vacinação.",
+            "doses": "CAMPANHAS NACIONAIS DE VACINAÇÃO",
+            "diseases_avoided": []
+        }
+    ],
+    "take_at_15_months": [
+        {
+            "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
+            "description": "O primeiro reforço pode ser tomado entre os 15 e os 18 meses. Para crianças com mais de 7 anos que estiverem em atraso com a dose de reforço, recomenda-se a dTpa (acelular) do tipo adulto ou a dTpa combinada à vacina inativada para poliomielite. Nos postos públicos de vacinação é oferecida a DTPw (de células inteiras).",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Difteria",
+                "Tétano",
+                "Coqueluche"
+            ]
+        },
+        {
+            "name": "Haemophilus influenzae tipo b",
+            "description": "O reforço pode ser aplicado entre 15 e 18 meses de idade. Os postos públicos de vacinação não oferecem doses de reforço.",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Infecções pelo vírus Haemophilus influenzae tipo b"
+            ]
+        },
+        {
+            "name": "Poliomielite (vírus inativados)",
+            "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. Ela pode ser aplicada entre os 15 e 18 meses de vida. Os postos públicos de vacinação não oferecem doses de reforço.³",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Poliomielite"
+            ]
+        }
+    ],
+    "take_at_4_years": [
+        {
+            "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
+            "description": "O segundo reforço pode ser aplicado dos 4 aos 6 anos de idade. Para crianças com mais de 7 anos que estiverem em atraso com a dose de reforço, recomenda-se a DTPa (acelular) do tipo adulto ou a DTPa combinada à vacina inativada para poliomielite. Nos postos públicos de vacinação é oferecida a DTPw.",
+            "doses": "Reforço com DTPa, DTPw ou dTpa",
+            "diseases_avoided": [
+                "Difteria",
+                "Tétano",
+                "Coqueluche"
+            ]
+        },
+        {
+            "name": "Poliomielite (vírus inativados)",
+            "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. A dose pode ser tomada dos 4 aos 6 anos de idade. Postos públicos de vacinação não oferecem doses de reforço.³",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Poliomielite"
+            ]
+        }
+    ],
+    "take_at_5_years": [
+        {
+            "name": "Meningocócicas conjugadas",
+            "description": "",
+            "doses": "REFORÇO",
+            "diseases_avoided": [
+                "Previne a doença meningocócica C/ACWY"
+            ]
+        }
+    ],
+    "take_at_9_years": [
+        {
+            "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
+            "description": "",
+            "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos(ou, na impossibilidade de dTpa, fazer dT)",
+            "diseases_avoided": [
+                "Difteria",
+                "Tétano",
+                "Coqueluche"
+            ]
+        },
+        {
+            "name": "HPV",
+            "description": "A vacina pode ser tomada por meninas, meninos e jovens a partir dos 9 anos, mas é aconselhável administrá-la antes do início da vida sexual. Há dois tipos de vacina. A recomendada para ambos os sexos entre 9 e 26 anos, que deve ser tomada no esquema 0-2-6 meses e a recomendada para meninas e mulheres a partir de 9 anos de idade, que o esquema de aplicação é 0-1-6 meses. As vacinas não estão disponíveis nos postos públicos de vacinação.",
+            "doses": "Duas doses para meninas e meninos",
+            "diseases_avoided": [
+                "HPV"
+            ]
+        },
+        {
+            "name": "Dengue",
+            "description": "",
+            "doses": "Recomendada para pessoas soropositivas para dengue, de 9 a 45 anos: três doses: 0 - 6 - 12 meses",
+            "diseases_avoided": [
+                "Dengue"
+            ]
+        }
+    ]
+}

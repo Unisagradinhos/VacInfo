@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Hepatite A",
+        "description": "Sem risco teórico. Preferir vacinar fora da gestação.",
+        "doses": "Consultar seu médico",
+        "diseases_avoided": [
+            "Hepatite A"
+        ]
+    },
+    {
+        "name": "Hepatite B",
+        "description": "Recomendada",
+        "doses": "3 doses, de acordo com a situação vacinal",
+        "diseases_avoided": [
+            "Hepatite B"
+        ]
+    },
+    {
+        "name": "Hepatite A B",
+        "description": "Sem risco teórico. Preferir vacinar fora da gestação.",
+        "doses": "Consultar seu médico",
+        "diseases_avoided": [
+            "Hepatite A B"
+        ]
+    },
+    {
+        "name": "Influenza (3V ou 4V)",
+        "description": "Recomendada",
+        "doses": "Consultar seu médico",
+        "diseases_avoided": [
+            "Gripe"
+        ]
+    },
+    {
+        "name": "Dupla (dT) ou Tríplice bacteriana (dTpa) acelular do \"adulto\"",
+        "description": "Recomendada",
+        "doses": "Se já tem esquema completo (3 doses), tomar 1 dose de dTpa após 20 semanas de IG em cada gestação. Se o esquema está incompleto, completar 30-60 dias entre as doses, sendo uma dose de dTpa após 20 semanas de IG.",
+        "diseases_avoided": [
+            "Difteria",
+            "Tétano",
+            "Coqueluche"
+        ]
+    },
+    {
+        "name": "Meningocócica Conjugada (C)",
+        "description": "Indicada apenas em situação de risco epidêmico.",
+        "doses": "Consultar seu médico",
+        "diseases_avoided": [
+            "Previne a doença meningocócica C"
+        ]
+    },
+    {
+        "name": "Meningocócica Conjugada (ACWY)",
+        "description": "Indicada apenas em situação de risco epidêmico.",
+        "doses": "Consultar seu médico",
+        "diseases_avoided": [
+            "Previne a doença meningocócica ACWY"
+        ]
+    },
+    {
+        "name": "Meningocócica recombinante (B)",
+        "description": "Vacina Inativa. Pode ser utilizada considerando risco por comorbidades ou epidemiológicos.",
+        "doses": "Consultar seu médico",
+        "diseases_avoided": [
+            "Previne a doença meningocócica B"
+        ]
+    },
+    {
+        "name": "Pneumocócicas (VPC13 e VPP23)",
+        "description": "Pode ser feito em gestantes de risco para doença pneumocócica invasiva.",
+        "doses": "Consultar seu médico",
+        "diseases_avoided": [
+            "Pneumonia",
+            "Otite",
+            "Meningite",
+            "Outras infecções causadas pelo Pneumococo"
+        ]
+    }
+]

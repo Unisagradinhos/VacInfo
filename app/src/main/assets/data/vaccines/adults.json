@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Hepatite B",
+        "description": "",
+        "doses": "Vacinar os não vacinados anteriormente",
+        "diseases_avoided": [
+            "Hepatite B"
+        ]
+    },
+    {
+        "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
+        "description": "",
+        "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos (ou, na impossibilidade de dTpa, fazer dT)",
+        "diseases_avoided": [
+            "Difteria",
+            "Tétano",
+            "Coqueluche"
+        ]
+    },
+    {
+        "name": "Influenza (gripe)",
+        "description": "",
+        "doses": "VACINAÇÃO ANUAL",
+        "diseases_avoided": [
+            "Gripe"
+        ]
+    },
+    {
+        "name": "Febre amarela",
+        "description": "",
+        "doses": "EM REGIÕES COM RECOMENDAÇÃO DE VACINAÇÃO - Dose única a partir dos 9 meses de idade. A recomendação de uma segunda dose, especialmente para os vacinados antes de 2 anos de idade, não é consensual, mas deve ser considerada pela possibilidade de falha vacinal.",
+        "diseases_avoided": [
+            "Febre amarela"
+        ]
+    },
+    {
+        "name": "Tríplice viral",
+        "description": "",
+        "doses": "Vacinar os não vacinados anteriormente",
+        "diseases_avoided": [
+            "Sarampo",
+            "Caxumba",
+            "Rubéola"
+        ]
+    },
+    {
+        "name": "Varicela",
+        "description": "",
+        "doses": "Vacinar os suscetíveis não vacinados anteriormente",
+        "diseases_avoided": [
+            "Catapora"
+        ]
+    },
+    {
+        "name": "Hepatite A",
+        "description": "",
+        "doses": "Vacinar os não vacinados anteriormente",
+        "diseases_avoided": [
+            "Hepatite A"
+        ]
+    },
+    {
+        "name": "HPV",
+        "description": "",
+        "doses": "Vacinar os não vacinados anteriormente, a critério médico (três doses).",
+        "diseases_avoided": [
+            "HPV"
+        ]
+    },
+    {
+        "name": "Dengue",
+        "description": "",
+        "doses": "Recomendada para pessoas soropositivas para dengue, de 9 a 45 anos: três doses: 0 - 6 - 12 meses",
+        "diseases_avoided": [
+            "Dengue"
+        ]
+    }
+]

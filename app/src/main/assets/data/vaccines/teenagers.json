@@ -1,0 +1,96 @@
+{
+    "take_at_12_years": [
+        {
+            "name": "Meningocócicas conjugadas",
+            "description": "Para não vacinados na infância: duas doses com intervalo de cinco anos entre as doses. Para vacinados na infância: reforço aos 11 anos ou cinco anos após o último reforço na infância. Na indisponibilidade da vacina meningocócica conjugada ACWY, substituir pela vacina meningocócica C conjugada.",
+            "doses": "REFORÇO aos 11 anos. Para os não vacinados anteriormente: duas doses, com intervalo de 5 anos",
+            "diseases_avoided": [
+                "Previne a doença meningocócica C/ACWY"
+            ]
+        },
+        {
+            "name": "HPV",
+            "description": "",
+            "doses": "Vacinar os não vacinados anteriormente. Para menores de 15 anos: duas doses. De 15 anos em diante: três doses",
+            "diseases_avoided": []
+        }
+    ],
+    "take_between_12_and_19_years": [
+        {
+            "name": "Hepatite B",
+            "description": "Com esquema de vacinação básico para tétano completo: um reforço dez anos após a última dose. Com esquema de vacinação básico para tétano incompleto: uma dose de dTpa a qualquer momento e completar a vacinação básica com uma ou duas doses de dT (dupla bacteriana do tipo adulto) de forma a totalizar trés doses de vacina contendo o componente tetânico. Atualizar dTpa independente de intervalo prévio com dT ou TT. O uso da vacina dTpa, em substituição à dT, para adolescentes e adultos, objetiva, além da proteção individual, a redução da transmissão da Bordetella pertussis, principalmente para suscetíveis com alto risco de complicações, como os lactentes. Considerar antecipar reforço com dTpa para cinco anos após a última dose de vacina contendo o componente pertussis para adolescentes contactantes de lactentes. Para indivíduos que pretendem viajar para países nos quais a poliomielite é endémica recomenda-se a vacina dTpa combinada à pólio inativada (dTpa-VIP). dTpa-VIP pode substituir dTpa, inclusive em gestantes. Gestantes: Veja o calendário da mulher.",
+            "doses": "Vacinar os não vacinados anteriormente",
+            "diseases_avoided": [
+                "Hepatite B"
+            ]
+        },
+        {
+            "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
+            "description": "",
+            "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos (ou, na impossibilidade de dTpa, fazer dT)",
+            "diseases_avoided": [
+                "Difteria",
+                "Tétano",
+                "Coqueluche"
+            ]
+        },
+        {
+            "name": "Meningocócica B",
+            "description": "",
+            "doses": "Para os não vacinados anteriormente - De 12 a 23 meses e 29 dias: três doses. De 24 meses a 19 anos: duas doses",
+            "diseases_avoided": [
+                "Previne a doença meningocócica B"
+            ]
+        },
+        {
+            "name": "Influenza (gripe)",
+            "description": "Desde que disponível, a vacina influenza 4V (tetravalente) é preferível à vacina influenza 3V (trivalente), por conferir maior cobertura das cepas circulantes. Na impossibilidade de uso da vacina 4V, utilizar a vacina 3V. Gestantes: Veja o calendário da mulher.",
+            "doses": "VACINAÇÃO ANUAL",
+            "diseases_avoided": [
+                "Gripe"
+            ]
+        },
+        {
+            "name": "Febre amarela",
+            "description": "Uma dose para viajantes para áreas de risco ou para atender a exigências sanitárias de determinadas viagens internacionais (pelo menos dez dias antes da viagem). Contraindicada para imunodeprimidos e gestantes. Quando os riscos de adquirir a doença superam os riscos potenciais da vacinação, o médico deve avaliar sua utilização. Em gestantes: Contraindicada na gravidez, porém seu uso pode ser permitido após ponderação do risco/benefício da vacinaçã o: 1) não anteriormente vacinadas e que residem em ás de risco para febre amarela; 2) que vão se deslocar para região de risco da doença, na impossibilidade total de se evitar a viagem durante a gestação. Gestantes que viajam para países que exigem o Certificado internacional de Vacinação e Profilaxia (CiVP) devem ser isentadas da vacinação, se não houver risco de transmissão. É contraindicada em nutrizes até que o bebê complete 6 meses; se a vacinação não puder ser evitada, suspender o aleitamento materno por pelo menos 15 dias e preferencialmente 30 dias após a imunização. Contraindicada para imunodeprimidas; porém, quando os riscos de adquirir a doença superam os riscos potenciais da vacinação, o médico deve avaliar sua utilização.",
+            "doses": "EM REGIÕES COM RECOMENDAÇÃO DE VACINAÇÃO -Dose única a partir dos 9 meses de idade. A recomendação de uma segunda dose, especialmente para os vacinados antes de 2 anos de idade, não é consensual, mas deve ser considerada pela possibilidade de falha vacinal.",
+            "diseases_avoided": [
+                "Febre Amarela"
+            ]
+        },
+        {
+            "name": "Tríplice viral",
+            "description": "É considerado protegido o adolescente que tenha recebido duas doses da vacina tríplice viral acima de 1 ano de idade, e com intervalo mínimo de um més entre elas. Até 12 anos de idade, considerar a aplicação de vacina combinada quadrupla viral (sarampo, caxumba, rubéola e varicela - SCRV). Contraindicada para imunodeprimidos e gestantes.",
+            "doses": "Vacinar os não vacinados anteriormente",
+            "diseases_avoided": [
+                "Sarampo",
+                "Caxumba",
+                "Rubéola"
+            ]
+        },
+        {
+            "name": "Varicela",
+            "description": "Para suscetíveis: duas doses. Menores de 13 anos: intervalo de três meses entre as doses. A partir de 13 anos, intervalo de um a dois meses entre as doses. Até 12 anos de idade, considerar a aplicação de vacina combinada quádrupla viral (SCRV). Contraindicada para imunodeprimidos e gestantes.",
+            "doses": "Vacinar os suscetíveis não vacinados anteriormente",
+            "diseases_avoided": [
+                "Catapora"
+            ]
+        },
+        {
+            "name": "Hepatite A",
+            "description": "",
+            "doses": "Vacinar os não vacinados anteriormente",
+            "diseases_avoided": [
+                "Hepatite A"
+            ]
+        },
+        {
+            "name": "Dengue",
+            "description": "",
+            "doses": "Recomendada para pessoas soropositivas para dengue, de 9 a 45 anos: três doses: 0 - 6 - 12 meses",
+            "diseases_avoided": [
+                "Dengue"
+            ]
+        }
+    ]
+}
