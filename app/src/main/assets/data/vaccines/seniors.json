@@ -3,59 +3,43 @@
         "name": "Hepatite B",
         "description": "",
         "doses": "Vacinar os não vacinados anteriormente",
-        "diseases_avoided": [
-            "Hepatite B"
-        ]
+        "diseases_avoided": "Hepatite B"
     },
     {
         "name": "Tríplice bacteriana(DTPw, DTPa ou dTpa)",
         "description": "",
         "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos (ou, na impossibilidade de dTpa, fazer dT)",
-        "diseases_avoided": [
-            "Difteria",
-            "Tétano",
-            "Coqueluche"
-        ]
+        "diseases_avoided": "Difteria, Tétano,Coqueluche"
     },
     {
         "name": "Pneumocócicas conjugadas",
         "description": "",
         "doses": "VPC13: uma dose",
         "diseases_avoided": [
-            "Pneumonia",
-            "Otite",
-            "Meningite",
-            "Outras infecções causadas pelo Pneumococo"
-        ]
+            "Pneumonia, Otite, Meningite,Outras infecções causadas pelo Pneumococo"
     },
     {
         "name": "Influenza (gripe)",
         "description": "",
         "doses": "VACINAÇÃO ANUAL",
-        "diseases_avoided": [
-            "Gripe"
-        ]
+        "diseases_avoided": "Gripe"
     },
     {
         "name": "Febre amarela",
         "description": "",
         "doses": "EM REGIÕES COM RECOMENDAÇÃO DE VACINAÇÃO - Dose única a partir dos 9 meses de idade. A recomendação de uma segunda dose, especialmente para os vacinados antes de 2 anos de idade, não é consensual, mas deve ser considerada pela possibilidade de falha vacinal.",
-        "diseases_avoided": [
-            "Febre amarela"
-        ]
+        "diseases_avoided": "Febre amarela"
     },
     {
         "name": "Pneumocócica 23 valente",
         "description": "",
         "doses": "Duas doses com intervalo de cinco anos",
-        "diseases_avoided": []
+        "diseases_avoided": ""
     },
     {
         "name": "Herpes zóster",
         "description": "",
         "doses": "Uma dose",
-        "diseases_avoided": [
-            "Herpes zóster"
-        ]
+        "diseases_avoided": "Herpes zóster"
     }
 ]
