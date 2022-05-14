@@ -32,6 +32,22 @@
         tools:layout_editor_absoluteY="20dp"
         tools:layout_editor_absoluteX="20dp"/>
 
+    <Spinner
+        android:id="@+id/spinner_criancas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner_criancas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_criancas"
+        android:layout_margin="10dp"
+        android:entries="@array/faixa_etaria_criancas"
+        tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/btn_criancas"
         android:layout_width="match_parent"

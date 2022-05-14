@@ -14,27 +14,37 @@
         android:name=".SplashScreen"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-        <activity
-            android:name=".home"
-            android:exported="false" />
         <activity
             android:name=".quandoVacinar"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"/>
 
-        </activity>
         <activity
             android:name=".quandoVacinarAdultos"
-            android:exported="true"></activity>
+            android:exported="true"/>
+
+        <activity
+            android:name=".quandoVacinarAdolescentes"
+            android:exported="true"/>
+
+        <activity
+            android:name=".quandoVacinarIdosos"
+            android:exported="true"/>
+
+        <activity
+            android:name=".quandoVacinarGestantes"
+            android:exported="true"/>
+
     </application>
 
 </manifest>

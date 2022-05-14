@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">AppVacInfo</string>
+    <string-array name="faixa_etaria_criancas">
+        <item>Ao nascer</item>
+        <item>Até 2 meses</item>
+        <item>Até 3 meses</item>
+        <item>Até 6 meses</item>
+        <item>Até 9 meses</item>
+        <item>Até 12 meses</item>
+        <item>Até 15 meses</item>
+        <item>Até 4 anos</item>
+        <item>Até 5 anos</item>
+        <item>Até 9 anos</item>
+    </string-array>
 </resources>

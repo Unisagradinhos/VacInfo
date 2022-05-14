@@ -33,7 +33,7 @@
         "name": "Pneumocócica 23 valente",
         "description": "",
         "doses": "Duas doses com intervalo de cinco anos",
-        "diseases_avoided": []
+        "diseases_avoided": ""
     },
     {
         "name": "Herpes zóster",

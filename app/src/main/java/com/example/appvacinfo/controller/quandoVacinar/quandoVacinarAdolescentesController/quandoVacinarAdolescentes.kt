@@ -13,7 +13,7 @@ class quandoVacinarAdolescentes : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.quando_vacinar_list)
-        val file: String = "data/vaccines/teenagers.json"
+        val file: String = "data/vaccines/teenagers/at_12_years.json"
         try{
             val vacina = carregarJson(file, this)
 
