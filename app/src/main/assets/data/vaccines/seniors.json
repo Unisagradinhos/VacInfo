@@ -9,14 +9,13 @@
         "name": "Tríplice bacteriana(DTPw, DTPa ou dTpa)",
         "description": "",
         "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos (ou, na impossibilidade de dTpa, fazer dT)",
-        "diseases_avoided": "Difteria, Tétano,Coqueluche"
+        "diseases_avoided": "Difteria, Tétano, Coqueluche"
     },
     {
         "name": "Pneumocócicas conjugadas",
         "description": "",
         "doses": "VPC13: uma dose",
-        "diseases_avoided": [
-            "Pneumonia, Otite, Meningite,Outras infecções causadas pelo Pneumococo"
+        "diseases_avoided": "Pneumonia, Otite, Meningite, Outras infecções causadas pelo Pneumococo"
     },
     {
         "name": "Influenza (gripe)",
@@ -34,7 +33,7 @@
         "name": "Pneumocócica 23 valente",
         "description": "",
         "doses": "Duas doses com intervalo de cinco anos",
-        "diseases_avoided": ""
+        "diseases_avoided": []
     },
     {
         "name": "Herpes zóster",

@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_quando_vacinar.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/quando_vacinar_adultos.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/quando_vacinar_list.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/vacinas.xml" value="0.22" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/drawable/grad_home.xml" value="0.2015" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/activity_home.xml" value="0.4" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -11,9 +17,9 @@
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/home.xml" value="0.264" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/motion_scene.xml" value="0.25" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/quando_vacinar.xml" value="0.22282608695652173" />
-        <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/quando_vacinar_adultos.xml" value="0.136" />
+        <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/quando_vacinar_adultos.xml" value="0.536" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/testedropdown.xml" value="0.13489583333333333" />
-        <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/vacinas.xml" value="0.4" />
+        <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/vacinas.xml" value="0.1" />
       </map>
     </option>
   </component>

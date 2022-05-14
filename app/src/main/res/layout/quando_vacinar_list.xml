@@ -11,7 +11,7 @@
         android:name="Vaccine"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:id="@+id/name_quando_vacinar_adultos"
+        android:id="@+id/name_quando_vacinar_list"
         tools:ignore="ExtraText,MissingConstraints" />
 
     <TextView
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:name="Vaccine"
         android:label=""
-        android:id="@+id/ds_quando_vacinar_adultos"
+        android:id="@+id/ds_quando_vacinar_list"
         tools:ignore="ExtraText,MissingConstraints" />
 
 

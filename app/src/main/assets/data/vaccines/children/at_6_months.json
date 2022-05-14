@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Influenza (gripe)",
+        "description": "Devem ser administradas duas doses com intervalo de 30 dias, no período de maior circulação do vírus (inverno), a partir dos 6 meses até os 9 anos de idade. Após a segunda dose, recomendam-se doses de reforço anuais. Os postos públicos de vacinação oferecem a vacina somente para crianças até 2 anos.",
+        "doses": "Vacinação Anual",
+        "diseases_avoided": [
+            "Gripe sazonal"
+        ]
+    }
+]

@@ -29,21 +29,45 @@
                 android:paddingLeft="8dp"
                 android:paddingBottom="20dp"
                 android:textStyle="bold"
+                android:textSize="25sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Name" />
-
+            <TextView
+                android:id="@+id/titulo_doses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBaseline_toBottomOf="@id/vacinas"
+                tools:text="Doses:"/>
             <TextView
                 android:id="@+id/doses"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:paddingLeft="8dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
                 android:paddingBottom="20dp"
-                app:layout_constraintBaseline_toBottomOf="@id/vacinas"
-                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintBaseline_toBottomOf="@+id/titulo_doses"
                 tools:text="Doses"/>
 
+            <TextView
+                android:id="@+id/titulo_diseases_avoided"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="20dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBaseline_toBottomOf="@id/doses"
+                tools:text="Doenças Evitadas:"/>
             <TextView
                 android:id="@+id/diseases_avoided"
                 android:layout_width="match_parent"
@@ -51,8 +75,8 @@
                 android:layout_margin="10dp"
                 android:paddingLeft="8dp"
                 android:paddingBottom="20dp"
-                app:layout_constraintBaseline_toBottomOf="@id/doses"
-                android:textStyle="bold"
+                android:textSize="20sp"
+                app:layout_constraintBaseline_toBottomOf="@+id/titulo_diseases_avoided"
                 tools:text="Doenças Evitadas"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
+        "description": "",
+        "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos(ou, na impossibilidade de dTpa, fazer dT)",
+        "diseases_avoided": [
+            "Difteria",
+            "Tétano",
+            "Coqueluche"
+        ]
+    },
+    {
+        "name": "HPV",
+        "description": "A vacina pode ser tomada por meninas, meninos e jovens a partir dos 9 anos, mas é aconselhável administrá-la antes do início da vida sexual. Há dois tipos de vacina. A recomendada para ambos os sexos entre 9 e 26 anos, que deve ser tomada no esquema 0-2-6 meses e a recomendada para meninas e mulheres a partir de 9 anos de idade, que o esquema de aplicação é 0-1-6 meses. As vacinas não estão disponíveis nos postos públicos de vacinação.",
+        "doses": "Duas doses para meninas e meninos",
+        "diseases_avoided": [
+            "HPV"
+        ]
+    },
+    {
+        "name": "Dengue",
+        "description": "",
+        "doses": "Recomendada para pessoas soropositivas para dengue, de 9 a 45 anos: três doses: 0 - 6 - 12 meses",
+        "diseases_avoided": [
+            "Dengue"
+        ]
+    }
+]

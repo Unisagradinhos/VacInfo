@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Pneumocócicas conjugadas",
+        "description": "O reforço pode ser aplicado de 12 a 15 meses de idade. Os postos públicos de vacinação oferecem as doses da PCV10.",
+        "doses": "REFORÇO",
+        "diseases_avoided": [
+            "Pneumonia",
+            "Otite",
+            "Meningite",
+            "Outras infecções causadas pelo Pneumococo"
+        ]
+    },
+    {
+        "name": "Meningocócicas conjugadas",
+        "description": "",
+        "doses": "REFORÇO",
+        "diseases_avoided": [
+            "Previne a doença meningocócica C/ACWY"
+        ]
+    },
+    {
+        "name": "Meningocócica B",
+        "description": "",
+        "doses": "REFORÇO",
+        "diseases_avoided": [
+            "Previne a doença meningocócica B"
+        ]
+    },
+    {
+        "name": "Tríplice viral",
+        "description": "Caso haja situação de surto de alguma dessas três doenças, a vacina pode ser antecipada, respeitando o intervalo de um mês até a segunda dose. Há a possibilidade de tomá-la em combinação com a vacina contra catapora (varicela), formando a quádrupla viral (SCR-V), quando coincidir a indicação dessas duas imunizações, mas somente em menores de 12 anos. Deve ser considerado maior risco de febre e ocorrência mais frequente de exantema após a primeira aplicação da SCR-V. A vacina está disponível nos postos públicos de vacinação.³",
+        "doses": "Duas doses a partir dos 12 meses",
+        "diseases_avoided": [
+            "Sarampo",
+            "Caxumba",
+            "Rubéola"
+        ]
+    },
+    {
+        "name": "Varicela",
+        "description": "A primeira dose da vacina deve ser aplicada aos 12 meses, mas em situação de surto, a vacina pode ser aplicada a partir dos 9 meses em crianças saudáveis. Porém, essa não é considerada uma dose válida para o calendário. Em uma situação de maior risco ou de pós-exposição, a segunda dose também pode ser antecipada, respeitando o intervalo de três meses da primeira dose. Há a possibilidade de tomá-la em combinação com a tríplice viral, formando a quádrupla viral (SCR-V), quando coincidir a indicação dessas duas imunizações, mas somente em menores de 12 anos. Após a primeira aplicação desta vacina combinada podem haver riscos aumentados para febre e ocorrências mais frequentes de exantema.",
+        "doses": "Duas doses a partir dos 12 meses",
+        "diseases_avoided": [
+            "Catapora"
+        ]
+    },
+    {
+        "name": "Hepatite A",
+        "description": "Devem ser administradas duas doses, sendo a primeira dose aos 12 meses e a segunda dose aos 18 meses de idade. A vacina não está disponível nos postos públicos de vacinação.",
+        "doses": "Duas doses a partir dos 12 meses",
+        "diseases_avoided": [
+            "Hepatite A"
+        ]
+    },
+    {
+        "name": "Poliomielite oral (vírus vivos atenuados)",
+        "description": "As doses orais, que utilizam vacina atenuada, passam a ser permitidas. A criança pode tomar uma dose a partir dos seis meses até os cinco anos. Os postos públicos de vacinação oferecem a VOP (vacina oral atenuada) durante as campanhas nacionais de vacinação.",
+        "doses": "CAMPANHAS NACIONAIS DE VACINAÇÃO",
+        "diseases_avoided": []
+    }
+]

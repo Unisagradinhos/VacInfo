@@ -13,5 +13,25 @@
         "name": "Programa Nacional de Imunização",
         "initials": "PNI",
         "link": "https://sbim.org.br/calendarios-de-vacinacao"
+    },
+    {
+        "name": "Instituto das Cidades InteligentesSecretaria Municipal da Saúde (Curitiba)",
+        "initials": "ICI",
+        "link": "https://saude.curitiba.pr.gov.br/19-noticias/881-mitos-e-verdades-sobre-vacinas-entenda-a-importancia-da-imunizacao.html"
+    },
+    {
+        "name": "Sabin - Medicina Diagnóstica",
+        "initials": "",
+        "link": "https://blog.sabin.com.br/vacinas/mitos-e-verdades-sobre-vacinas/"
+    },
+    {
+        "name": "Ministério da saúde: o que é a vacinação",
+        "initials": "",
+        "link": "https://www.minsaude.gov.cv/index.php/documentosite/outros-documentos/kit-informativo-da-semana-africana-de-vacinacao/192-o-que-e-a-vacinacao/file"
+    },
+    {
+        "name": "Padrão: Medicina Diagnostica e personalizada",
+        "initials": "",
+        "link": "https://padrao.com.br/blog/?p=307"
     }
 ]

@@ -3,7 +3,7 @@
         "name": "Hepatite B",
         "description": "",
         "doses": "Vacinar os não vacinados anteriormente",
-        "diseases_avoided":"Hepatite B"
+        "diseases_avoided": "Hepatite B"
     },
     {
         "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",

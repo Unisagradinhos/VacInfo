@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Meningocócicas conjugadas",
+        "description": "",
+        "doses": "REFORÇO",
+        "diseases_avoided": [
+            "Previne a doença meningocócica C/ACWY"
+        ]
+    }
+]

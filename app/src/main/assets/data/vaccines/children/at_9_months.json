@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Febre Amarela",
+        "description": "Deverão receber reforço a cada dez anos a partir da primeira dose da vacina os habitantes de áreas sob risco da doença e viajantes com destino a tais regiões.3 A vacina deve ser aplicada pelo menos dez dias antes da viagem2. É contraindicada para imunodeprimidos, exceto quando o risco de contrair a doença supera o da vacinação.A vacina está disponível nos postos públicos de vacinação³.",
+        "doses": "EM REGIÕES COM RECOMENDAÇÃO DE VACINAÇÃO - Dose única a partir dos 9 meses de idade. A recomendação de uma segunda dose, especialmente para os vacinados antes de 2 anos de idade, não é consensual,mas deve ser considerada pela possibilidade de falha vacinal.",
+        "diseases_avoided": [
+            "Febre amarela"
+        ]
+    }
+]

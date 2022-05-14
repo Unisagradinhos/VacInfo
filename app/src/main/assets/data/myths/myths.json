@@ -1,0 +1,116 @@
+[
+    {
+        "title": "Vacinas causam autismo.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "Esse boato ganhou força após um artigo forjado por um médico britânico, que já caiu em descrédito. Não há prova alguma dessa associação."
+    },
+    {
+        "title": "As vacinas contêm mercúrio, que é perigoso.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "O mercúrio é um dos componentes do timerosal, utilizado como conservante em vacinas multi doses. Ele é empregado desde 1930 com o objetivo de evitar a contaminação por fungos, bactérias e outros microrganismos. A Organização Mundial da Saúde (OMS) recomenda a utilização desse conservante por considerar o mercúrio seguro e não cumulativo, já que o organismo o elimina rapidamente."
+    },
+    {
+        "title": "As doenças evitáveis por vacinas estão quase erradicadas em meu país, por isso não há razão para me vacinar.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": " Embora as doenças evitáveis por vacinação tenham se tornado raras em muitos países, os agentes infecciosos que as causam continuam a circular em algumas partes do mundo. Em um mundo altamente interligado, esses agentes podem atravessar fronteiras geográficas e infectar qualquer pessoa que não esteja protegida.\n\nDesde 2005, por exemplo, na Europa Ocidental ocorrem focos de sarampo em populações não vacinadas. Recentemente, Venezuela passou a sofrer com um surto de sarampo e já há casos registrados no norte do Brasil.\n\nA vacina imuniza o indivíduo que a recebe e as pessoas vacinadas formam um \"escudo protetor\" para as outras de seu convívio que não podem ser vacinadas. Isto se chama \"proteção de rebanho\". Programas de vacinação bem-sucedidos dependem da cooperação de cada indivíduo para assegurar o bem de todos."
+    },
+    {
+        "title": "Aplicar mais de uma vacina ao mesmo tempo pode aumentar o risco de eventos adversos ou sobrecarregar o sistema imunológico.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "Evidências científicas mostram que aplicar várias vacinas ao mesmo tempo não causa aumento de eventos adversos e nem sobrecarrega o sistema imunológico das pessoas. Uma criança é exposta a muito mais antígenos quando tem um resfriado comum ou mesmo quando é exposta a uma substância alérgica como o pólen. Além disso, aplicar várias vacinas ao mesmo tempo reduz o número de visitas ao posto de saúde ou hospital e também o número de injeções aplicadas."
+    },
+    {
+        "title": "A gripe não é uma doença grave, a vacina nem é muito eficaz e dá muita reação.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "A gripe é uma infecção causada pelo vírus influenza e pode levar a complicações e até ao óbito. Mulheres grávidas ou em pós parto (até 45 dias após o nascimento do bebê), crianças menores de 5 anos, idosos e pessoas com doenças crônicas, têm maiores chances de complicações, por isso o Ministério da Saúde oferece esta vacina gratuitamente para esta população durante a campanha anual. A vacinação de gestantes tem o benefício adicional de proteger também os recém-nascidos. Neste ano de 2018, após o término da campanha, o saldo remanescente da vacina da gripe foi oferecido para a população em geral."
+    },
+    {
+        "title": "É melhor ser imunizado por meio da doença do que pelas vacinas.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "As vacinas estimulam o sistema imunológico para produzir uma resposta semelhante àquela produzida pela infecção natural, mas não causam a doença. Já as doenças, que poderiam ser preveníveis por vacinas, podem resultar em complicações, deixar sequelas e até levar à morte."
+    },
+    {
+        "title": "Vacina é indicada apenas para crianças.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "A maior parte das vacinas é aplicada na infância, mas existem várias indicações na fase adulta e na maturidade, caso da própria gripe."
+    },
+    {
+        "title": "Vacinas proporcionam 100% de proteção.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "As vacinas não proporcionam 100% de proporção, mas apresentam uma eficácia bastante alta. As vacinas com a maior taxa de proteção chegam a 95% de efetividade. Por isso, é importante manter uma cobertura alta da população, o que ajuda no bloqueio contra as doenças. É a chamada de imunidade de rebanho."
+    },
+    {
+        "title": "Vacina contra gripe causa gripe.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "Impossível. A vacina da gripe é feita com o vírus influenza morto e fragmentado."
+    },
+    {
+        "title": "Uma melhor higiene e saneamento farão as doenças desaparecerem. Vacinas não são necessárias.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "Doenças que podem ser prevenidas pelas vacinas acabam retornando quando a cobertura vacinal fica baixa. É o caso do sarampo, no norte no país.\n\nUma melhor higiene, lavagem das mãos e uso de água limpa ajudam a proteger as pessoas de doenças infecciosas. Entretanto, muitas dessas infecções podem se espalhar, independente de quão limpos estejamos."
+    },
+    {
+        "title": "Para doenças que nem sempre são graves, como catapora ou varicela, a vacinação não é necessária.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "Todas as doenças infecciosas preveníveis por vacinação são potencialmente graves, com registro de hospitalizações, sequelas ou óbitos, mesmo a catapora. Portanto, vacinar vale a pena."
+    },
+    {
+        "title": "Gestantes, bebês e pessoas imunodeprimidas (pacientes com aids, que passaram por transplante, em tratamento oncológico, entre outros) nunca devem ser vacinados.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "Algumas vacinas, sobretudo aquelas feitas com bactérias ou vírus vivos atenuados como as vacinas contra a varicela, contra o sarampo e contra a febre amarela, podem ser contraindicadas para algumas dessas pessoas. No entanto, existem outras vacinas, como as da gripe, da pneumonia e do tétano são indicadas e seguras mesmo para pessoas com o sistema imune debilitado, pois são produzidas por vírus ou bactérias inativados ou por apenas alguns \"fragmentos\" (antígenos) destes microrganismos."
+    },
+    {
+        "title": "Quanto mais fortes forem as reações da vacina, mais protegida a pessoa estará.",
+        "is_myth": true,
+        "label": "Mito",
+        "explanation": "A eficácia das vacinas não está relacionada à intensidade de seus efeitos colaterais. No geral, as vacinas provocam cada vez menos efeitos colaterais, pois vem sendo aperfeiçoadas continuamente."
+    },
+    {
+        "title": "Vacinas podem causar efeitos colaterais.",
+        "is_myth": false,
+        "label": "Verdadeiro",
+        "explanation": "As vacinas são testadas e somente são liberadas se comprovarem serem seguras. Contudo, como qualquer medicamento, em alguns casos, pode haver efeitos colaterais. Geralmente as vacinas injetáveis causam reações no local da injeção, como dor no braço, vermelhidão e inchaço onde elas foram aplicadas. Raramente podem ocorrer sintomas gerais e passageiros como febre ou mal-estar. Em alguns casos, ainda menos frequentes, a pessoa vacinada pode apresentar alguns sintomas parecidos com os da própria doença. Isso acontece pelo fato de a vacina ter em sua composição os componentes do microrganismo ou mesmo o próprio vírus \"enfraquecido\" (ou atenuado). Mesmo apresentando estes sintomas, é importante esclarecer que esta pessoa vacinada não transmite o microrganismo para os outros e que este quadro clínico é muito mais brando do que daquela doença que foi prevenida. Mas diante de qualquer sintoma importante após uma vacinação é necessário procurar um médico para avaliar a situação, descartando outras doenças que podem acontecer coincidentemente após uma vacinação e não terem nenhuma relação com ela."
+    },
+    {
+        "title": "Tomar a mesma vacina duas vezes não faz mal.",
+        "is_myth": false,
+        "label": "Verdadeiro",
+        "explanation": "Não faz mal. Se você não lembra se foi imunizado contra alguma doença e perdeu sua carteirinha de vacinação, procure uma unidade de saúde para verificar as vacinas registradas em seu prontuário. Em Curitiba, há registro eletrônico desde 2003. Caso permaneça a dúvida, os profissionais de saúde da unidade de saúde poderão orientar sobre as vacinas que são recomendadas para sua faixa etária."
+    },
+    {
+        "title": "A vacina HPV pode prevenir o câncer?",
+        "is_myth": false,
+        "label": "Verdadeiro",
+        "explanation": "O HPV, conhecido como papilomavírus humano, causa verrugas comuns na pele e nas genitálias. Ele tem cerca de 150 subtipos conhecidos e dois deles (HPV-16 e HPV-18) estão associados a cerca de 70% dos casos de câncer de colo do útero. Além disso, o HPV também está ligado a outros tipos de câncer, como ânus, vulva, vagina e pênis."
+    },
+    {
+        "title": "Com a vacinação, há a formação de anticorpos e imunização do organismo?",
+        "is_myth": false,
+        "label": "Verdadeiro",
+        "explanation": "Esse é o principal objetivo da vacinação. O imunizante interage com o sistema imunológico do paciente para gerar uma resposta imunológica de um modo muito parecido ao que ocorre em uma infecção natural, mas sem que a pessoa contraia a doença ou haja riscos à saúde."
+    },
+    {
+        "title": "As vacinas têm segurança comprovada por fases de avaliação e testes realizados previamente?",
+        "is_myth": false,
+        "label": "Verdadeiro",
+        "explanation": "Antes de serem liberadas para imunizar a população, as vacinas passam por rigorosas etapas de testes para garantir sua segurança e eficácia. Os primeiros testes ocorrem naqueles animais em que o vírus reage de modo semelhante ao que ocorre no nosso organismo, como camundongos modificados e macacos."
+    },
+    {
+        "title": "Algumas vacinas precisam de reforço?",
+        "is_myth": false,
+        "label": "Verdadeiro",
+        "explanation": "Acontece que algumas vacinas precisam de mais de uma dose para fazer o organismo desenvolver uma proteção prolongada. Com o passar dos anos acontece a queda dos anticorpos e a diminuição dos níveis de proteção, assim, torna-se necessária a aplicação de doses de reforço, que é o que acontece com a vacina de difteria e tétano."
+    }
+]
