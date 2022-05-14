@@ -18,18 +18,20 @@
             android:layout_height="wrap_content"
             >
 
+
             <TextView
                 android:id="@+id/vacinas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
                 android:paddingLeft="8dp"
                 android:paddingBottom="20dp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Name" />
-
 
             <TextView
                 android:id="@+id/doses"
@@ -40,7 +42,7 @@
                 android:paddingBottom="20dp"
                 app:layout_constraintBaseline_toBottomOf="@id/vacinas"
                 android:textStyle="bold"
-                tools:text="asdfghjkasdfg"/>
+                tools:text="Doses"/>
 
             <TextView
                 android:id="@+id/diseases_avoided"
@@ -51,7 +53,7 @@
                 android:paddingBottom="20dp"
                 app:layout_constraintBaseline_toBottomOf="@id/doses"
                 android:textStyle="bold"
-                tools:text="asdfghjkasdfdfyyggg"/>
+                tools:text="Doenças Evitadas"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>

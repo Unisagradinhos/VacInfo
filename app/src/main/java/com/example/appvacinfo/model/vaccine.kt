@@ -4,5 +4,7 @@ data class Vaccine(
     var name: String,
     var description: String,
     var doses: String,
-    var diseasesAvoided: List<String>
-)
+    var diseases_avoided: String
+) {
+
+}

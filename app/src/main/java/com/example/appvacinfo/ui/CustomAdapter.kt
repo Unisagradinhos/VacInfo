@@ -36,7 +36,7 @@ class CustomAdapter(var context: Context, var vaccines: List<Vaccine>) : BaseAda
         vaccineDoses.text = vaccines[position].doses
 
         val vaccineDiseasesAvoided: TextView = createdView.findViewById(R.id.diseases_avoided)
-        vaccineDiseasesAvoided.text = vaccines[position].diseasesAvoided
+        vaccineDiseasesAvoided.text = vaccines[position].diseases_avoided
 
         return createdView
     }
