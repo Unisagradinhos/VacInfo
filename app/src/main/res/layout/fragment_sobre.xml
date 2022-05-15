@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SobreFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad_home">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_vacinfo"
+
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/sobre_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="230dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="30dp"
+            android:text="@string/sobre_projeto"
+            android:textSize="16dp"
+            android:textColor="#FAFAFA"
+            />
+
+        <TextView
+            android:id="@+id/sobre_alunos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="330dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="40dp"
+            android:text="@string/sobre_alunos"
+            android:textSize="16sp"
+            android:textColor="#FAFAFA"
+            app:layout_constraintBaseline_toBottomOf="@id/sobre_descricao" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/unisagrado_logo"
+            app:layout_constraintBottom_toBottomOf="@id/sobre_descricao"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

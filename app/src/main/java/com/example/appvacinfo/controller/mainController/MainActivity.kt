@@ -8,11 +8,13 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
     private lateinit var toggle : ActionBarDrawerToggle
 
+    private lateinit var sobreFragment: SobreFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +22,8 @@ class MainActivity : AppCompatActivity() {
 
         val drawerLayout : DrawerLayout = findViewById(R.id.drawer_layout)
         val navView : NavigationView = findViewById(R.id.nav_view)
+
+        sobreFragment = SobreFragment()
 
         val button_quando_vacinar = findViewById<Button>(R.id.btn_quando_vacinar)
         val button_onde_vacinar = findViewById<Button>(R.id.btn_onde_vacinar)
@@ -41,6 +45,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_calendar -> {
 
                 }
+                R.id.nav_about -> {
+                    setFragment(sobreFragment)
+                }
             }
             true
         }
@@ -58,7 +65,7 @@ class MainActivity : AppCompatActivity() {
             doencas();
         }
         button_sobre.setOnClickListener{
-            sobre();
+            setFragment(sobreFragment)
         }
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -68,6 +75,13 @@ class MainActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
+    private fun setFragment(fragment : Fragment){
+        val fragmentTransaction = supportFragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.fragmentArea, fragment)
+        fragmentTransaction.commit()
+    }
+
 
     private fun quando_vacinar() {
         val tela_QuandoVacinar = Intent(this, quandoVacinar::class.java)

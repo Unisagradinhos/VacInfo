@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentArea"
+
+        />
+
     <Button
         android:id="@+id/btn_quando_vacinar"
         android:layout_width="wrap_content"
@@ -14,7 +21,8 @@
         android:text="Quando Vacinar"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="102dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        />
 
     <Button
         android:id="@+id/btn_onde_vacinar"
