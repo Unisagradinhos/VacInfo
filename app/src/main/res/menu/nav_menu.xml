@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_location"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Onde se vacinar"
+        />
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/ic_baseline_calendar_month_24"
+        android:title="Quando se vacinar?"
+        />
+    <item
+        android:id="@+id/nav_vaccines"
+        android:icon="@drawable/ic_vaccines"
+        android:title="Vacinas"
+        />
+    <item
+        android:id="@+id/nav_diseases"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:title="Doenças"
+        />
+
+    <group
+        android:id="@+id/more_group"
+        >
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Sobre"
+            />
+    </group>
+</menu>

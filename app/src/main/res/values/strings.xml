@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">AppVacInfo</string>
+    <string name="open">open</string>
+    <string name="close">Close</string>
     <string-array name="faixa_etaria_criancas">
         <item>Ao nascer</item>
         <item>Até 2 meses</item>
