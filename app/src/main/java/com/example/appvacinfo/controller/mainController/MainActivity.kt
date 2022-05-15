@@ -12,18 +12,11 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var toggle : ActionBarDrawerToggle
-
-    private lateinit var sobreFragment: SobreFragment
-
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_drawer)
-
-        val drawerLayout : DrawerLayout = findViewById(R.id.drawer_layout)
-        val navView : NavigationView = findViewById(R.id.nav_view)
-
-        sobreFragment = SobreFragment()
+        drawerConfig();
 
         val button_quando_vacinar = findViewById<Button>(R.id.btn_quando_vacinar)
         val button_onde_vacinar = findViewById<Button>(R.id.btn_onde_vacinar)
@@ -31,26 +24,6 @@ class MainActivity : AppCompatActivity() {
         val button_doencas = findViewById<Button>(R.id.btn_doencas)
         val button_sobre = findViewById<Button>(R.id.btn_sobre)
 
-        toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
-        drawerLayout.addDrawerListener(toggle)
-        toggle.syncState()
-
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-        navView.setNavigationItemSelectedListener {
-            when(it.itemId){
-                R.id.nav_location -> {
-
-                }
-                R.id.nav_calendar -> {
-
-                }
-                R.id.nav_about -> {
-                    setFragment(sobreFragment)
-                }
-            }
-            true
-        }
 
         button_quando_vacinar.setOnClickListener {
             quando_vacinar();
@@ -65,23 +38,9 @@ class MainActivity : AppCompatActivity() {
             doencas();
         }
         button_sobre.setOnClickListener{
-            setFragment(sobreFragment)
+            sobre();
         }
     }
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-
-        if(toggle.onOptionsItemSelected(item)){
-            return true
-        }
-        return super.onOptionsItemSelected(item)
-    }
-
-    private fun setFragment(fragment : Fragment){
-        val fragmentTransaction = supportFragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.fragmentArea, fragment)
-        fragmentTransaction.commit()
-    }
-
 
     private fun quando_vacinar() {
         val tela_QuandoVacinar = Intent(this, quandoVacinar::class.java)
@@ -100,7 +59,57 @@ class MainActivity : AppCompatActivity() {
         startActivity(tela_Doencas)
     }
     private fun sobre(){
-        val tela_Sobre = Intent (this, sobre::class.java)
+        val tela_Sobre = Intent (this, SobreActivity::class.java)
         startActivity(tela_Sobre)
     }
+
+    //DRAWER: -->
+    private lateinit var toggle : ActionBarDrawerToggle
+    private fun drawerConfig(){
+        val drawerLayout : DrawerLayout = findViewById(R.id.drawer_layout)
+        val navView : NavigationView = findViewById(R.id.nav_view)
+
+        toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        navView.setNavigationItemSelectedListener {
+            when(it.itemId){
+                R.id.nav_home->{
+                    val tela_home = Intent(this, MainActivity::class.java)
+                    startActivity(tela_home)
+                }
+                R.id.nav_calendar -> {
+                    val tela_QuandoVacinar = Intent(this, quandoVacinar::class.java)
+                    startActivity(tela_QuandoVacinar)
+                }
+                R.id.nav_location -> {
+                    val tela_OndeVacinar = Intent (this, ondeVacinar::class.java)
+                    startActivity(tela_OndeVacinar)
+                }
+                R.id.nav_vaccines->{
+                    val tela_Vacinas = Intent (this, vacinas::class.java)
+                    startActivity(tela_Vacinas)
+                }
+                R.id.nav_diseases -> {
+                    val tela_Doencas = Intent (this, doencas::class.java)
+                    startActivity(tela_Doencas)
+                }
+                R.id.nav_about ->  {
+                    val tela_Sobre = Intent (this, SobreActivity::class.java)
+                    startActivity(tela_Sobre)
+                }
+            }
+            true
+        }
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(toggle.onOptionsItemSelected(item)){
+            return true
+        }
+        return super.onOptionsItemSelected(item)
+    }
+    //<<-- DRAWER:
 }

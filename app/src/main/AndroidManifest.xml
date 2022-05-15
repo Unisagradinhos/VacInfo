@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppVacInfo">
         <activity
+            android:name=".SobreActivity"
+            android:exported="true" />
+        <activity
             android:name=".DrawerActivity"
             android:exported="false" />
+
         <activity
             android:name=".SplashScreen"
             android:exported="true"

@@ -18,7 +18,11 @@
         <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/drawable/logo_vacinfo_background.xml" value="0.161" />
         <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/activity_drawer.xml" value="0.26875" />
         <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/activity_quando_vacinar.xml" value="0.25" />
+        <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/activity_sobre.xml" value="0.26875" />
         <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/activity_splash_screen.xml" value="0.26875" />
+        <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/drawer_quando_vacinar.xml" value="0.26875" />
+        <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/drawer_quando_vacinar_list.xml" value="0.26875" />
+        <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/drawer_sobre.xml" value="0.26875" />
         <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/fragment_sobre.xml" value="0.2" />
         <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/nav_header.xml" value="0.26875" />
         <entry key="..\:/Users/carla/vacinfo/VacInfo/app/src/main/res/layout/quando_vacinar_adultos.xml" value="0.24139492753623187" />
