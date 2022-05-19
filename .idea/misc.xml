@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_main.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_onde_vacinar.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_quando_vacinar.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_sobre.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/drawer_onde_vacinar.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/drawer_quando_vacinar.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/drawer_quando_vacinar_list.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/drawer_sobre.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/onde_vacinar.xml" value="0.17255434782608695" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/drawable/grad_home.xml" value="0.2015" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/activity_home.xml" value="0.4" />
         <entry key="..\:/Users/alexi/AndroidStudioProjects/AppVacInfo/app/src/main/res/layout/activity_main.xml" value="0.25" />
