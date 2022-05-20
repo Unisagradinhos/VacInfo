@@ -1,42 +1,48 @@
-package com.example.appvacinfo
+package com.example.appvacinfo.controller.mitosController
 
 import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.ListView
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
-import com.example.appvacinfo.controller.faqController.FaqActivity
-import com.example.appvacinfo.controller.mitosController.MitosActivity
-import com.example.appvacinfo.controller.ondeVacinar_controller.ondeVacinar
+import com.example.appvacinfo.MainActivity
+import com.example.appvacinfo.R
 import com.example.appvacinfo.controller.sobreController.SobreActivity
-import com.example.appvacinfo.model.carregarJson
-import com.example.appvacinfo.ui.CustomAdapter
+import com.example.appvacinfo.controller.faqController.FaqActivity
+import com.example.appvacinfo.controller.ondeVacinar_controller.ondeVacinar
+import com.example.appvacinfo.model.carregarJsonMito
+import com.example.appvacinfo.quandoVacinar
+import com.example.appvacinfo.ui.CustomAdapterMitos
 import com.google.android.material.navigation.NavigationView
 import org.json.JSONException
 
-class quandoVacinarAdultos : AppCompatActivity(){
-private lateinit var listViewName: ListView
-
+class MitosActivity : AppCompatActivity() {
+    private lateinit var listViewName: ListView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.drawer_quando_vacinar_list)
-        drawerConfig();
+        setContentView(R.layout.drawer_mitos)
+        drawerConfig()
 
-        val file: String = "data/vaccines/adults.json"
+        val file: String = "data/myths/myths.json"
+
         try{
-            val vacina = carregarJson(file, this)
+            val mitos = carregarJsonMito(file, this)
 
-            listViewName = findViewById(R.id.name_quando_vacinar_list)
-            listViewName.adapter = CustomAdapter(this,vacina)
+            listViewName = findViewById(R.id.mitos_list)
+            listViewName.adapter = CustomAdapterMitos(this,mitos)
 
 
         }catch(e: JSONException){
             e.printStackTrace()
         }
-
     }
+
+
+
+
+
     //DRAWER: -->
     private lateinit var toggle : ActionBarDrawerToggle
     private fun drawerConfig(){
@@ -64,7 +70,7 @@ private lateinit var listViewName: ListView
                     startActivity(tela_OndeVacinar)
                 }
                 R.id.nav_vaccines->{
-                    val tela_Vacinas = Intent (this, FaqActivity ::class.java)
+                    val tela_Vacinas = Intent (this, FaqActivity::class.java)
                     startActivity(tela_Vacinas)
                 }
                 R.id.nav_diseases -> {
@@ -86,8 +92,5 @@ private lateinit var listViewName: ListView
         return super.onOptionsItemSelected(item)
     }
     //<<-- DRAWER:
-
-
-
 
 }

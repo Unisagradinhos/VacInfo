@@ -11,7 +11,11 @@ import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.appvacinfo.controller.faqController.FaqActivity
+import com.example.appvacinfo.controller.mitosController.MitosActivity
 import com.example.appvacinfo.controller.ondeVacinar_controller.ondeVacinar
+import com.example.appvacinfo.controller.sobreController.SobreActivity
+import com.example.appvacinfo.controller.sobreController.quandoVacinarIdosos
 import com.google.android.material.navigation.NavigationView
 
 class quandoVacinar : AppCompatActivity() {
@@ -102,11 +106,11 @@ class quandoVacinar : AppCompatActivity() {
                     startActivity(tela_OndeVacinar)
                 }
                 R.id.nav_vaccines->{
-                    val tela_Vacinas = Intent (this, vacinas::class.java)
+                    val tela_Vacinas = Intent (this, FaqActivity ::class.java)
                     startActivity(tela_Vacinas)
                 }
                 R.id.nav_diseases -> {
-                    val tela_Doencas = Intent (this, doencas::class.java)
+                    val tela_Doencas = Intent (this, MitosActivity ::class.java)
                     startActivity(tela_Doencas)
                 }
                 R.id.nav_about ->  {

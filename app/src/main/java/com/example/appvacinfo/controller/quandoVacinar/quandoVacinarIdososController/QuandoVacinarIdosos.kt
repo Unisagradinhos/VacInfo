@@ -1,4 +1,4 @@
-package com.example.appvacinfo
+package com.example.appvacinfo.controller.sobreController
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,9 @@ import android.widget.ListView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.appvacinfo.*
+import com.example.appvacinfo.controller.faqController.FaqActivity
+import com.example.appvacinfo.controller.mitosController.MitosActivity
 import com.example.appvacinfo.controller.ondeVacinar_controller.ondeVacinar
 import com.example.appvacinfo.model.carregarJson
 import com.example.appvacinfo.ui.CustomAdapter
@@ -49,7 +52,7 @@ class quandoVacinarIdosos : AppCompatActivity() {
 
         navView.setNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.nav_home->{
+                R.id.nav_home ->{
                     val tela_home = Intent(this, MainActivity::class.java)
                     startActivity(tela_home)
                 }
@@ -61,12 +64,12 @@ class quandoVacinarIdosos : AppCompatActivity() {
                     val tela_OndeVacinar = Intent (this, ondeVacinar::class.java)
                     startActivity(tela_OndeVacinar)
                 }
-                R.id.nav_vaccines->{
-                    val tela_Vacinas = Intent (this, vacinas::class.java)
+                R.id.nav_vaccines ->{
+                    val tela_Vacinas = Intent (this, FaqActivity ::class.java)
                     startActivity(tela_Vacinas)
                 }
                 R.id.nav_diseases -> {
-                    val tela_Doencas = Intent (this, doencas::class.java)
+                    val tela_Doencas = Intent (this, MitosActivity ::class.java)
                     startActivity(tela_Doencas)
                 }
                 R.id.nav_about ->  {

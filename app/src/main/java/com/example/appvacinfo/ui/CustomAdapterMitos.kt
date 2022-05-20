@@ -11,13 +11,13 @@ import com.example.appvacinfo.R
 import com.example.appvacinfo.model.Myths
 import com.example.appvacinfo.model.Vaccine
 
-class CustomAdapter(var context: Context, var vaccines: List<Vaccine>) : BaseAdapter() {
+class CustomAdapterMitos(var context: Context, var myths: List<Myths>) : BaseAdapter() {
     override fun getCount(): Int {
-        return vaccines.size
+        return myths.size
     }
 
     override fun getItem(position: Int): Any {
-        return vaccines[position]
+        return myths[position]
     }
 
     override fun getItemId(position: Int): Long {
@@ -28,16 +28,17 @@ class CustomAdapter(var context: Context, var vaccines: List<Vaccine>) : BaseAda
     override fun getView(position: Int, p1: View?, viewGroup: ViewGroup?): View {
         val createdView = LayoutInflater
             .from(context)
-            .inflate(R.layout.vacinas, viewGroup, false)
+            .inflate(R.layout.card_mitos, viewGroup, false)
 
-        val vaccineName: TextView = createdView.findViewById(R.id.vacinas)
-        vaccineName.text = vaccines[position].name
+        val mythsName: TextView = createdView.findViewById(R.id.title)
+        mythsName.text = myths[position].title
 
-        val vaccineDoses: TextView = createdView.findViewById(R.id.doses)
-        vaccineDoses.text = vaccines[position].doses
+        val mythsLabel: TextView = createdView.findViewById(R.id.is_mith)
+        mythsLabel.text = myths[position].label
 
-        val vaccineDiseasesAvoided: TextView = createdView.findViewById(R.id.diseases_avoided)
-        vaccineDiseasesAvoided.text = vaccines[position].diseases_avoided
+        val mythsExplanation: TextView = createdView.findViewById(R.id.explanation)
+        mythsExplanation.text = myths[position].explanation
+
 
         return createdView
     }
