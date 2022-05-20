@@ -17,6 +17,7 @@ import com.google.android.material.navigation.NavigationView
 class SobreActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        title = "Sobre"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer_sobre)
         drawerConfig();

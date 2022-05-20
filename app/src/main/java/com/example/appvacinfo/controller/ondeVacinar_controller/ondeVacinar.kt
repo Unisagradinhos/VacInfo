@@ -37,6 +37,7 @@ class ondeVacinar : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerC
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        title = "Onde Vacinar"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer_onde_vacinar)
         drawerConfig()

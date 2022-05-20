@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Vacinas"
+        android:text="FAQ"
         app:layout_constraintTop_toBottomOf="@+id/btn_onde_vacinar"
         tools:layout_editor_absoluteX="42dp"
         tools:ignore="MissingConstraints" />
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
 
-        android:text="Doenças"
+        android:text="Mitos"
         app:layout_constraintTop_toBottomOf="@+id/btn_vacinas"
         tools:layout_editor_absoluteX="42dp"
         tools:ignore="MissingConstraints" />

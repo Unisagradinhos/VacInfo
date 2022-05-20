@@ -21,6 +21,7 @@ import org.json.JSONException
 class MitosActivity : AppCompatActivity() {
     private lateinit var listViewName: ListView
     override fun onCreate(savedInstanceState: Bundle?) {
+        title = "Mitos"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer_mitos)
         drawerConfig()

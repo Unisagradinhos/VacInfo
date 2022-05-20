@@ -16,6 +16,7 @@ import com.google.android.material.navigation.NavigationView
 class MainActivity : AppCompatActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
+        title = "VacInfo"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_drawer)
         drawerConfig();

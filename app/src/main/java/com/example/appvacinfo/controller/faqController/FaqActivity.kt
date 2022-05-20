@@ -16,6 +16,7 @@ import com.google.android.material.navigation.NavigationView
 
 class FaqActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        title = "FAQ"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer_faq)
         drawerConfig()

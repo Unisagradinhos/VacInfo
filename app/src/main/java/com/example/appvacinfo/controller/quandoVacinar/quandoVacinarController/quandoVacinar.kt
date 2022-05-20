@@ -20,6 +20,7 @@ import com.google.android.material.navigation.NavigationView
 
 class quandoVacinar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        title = "Quando Vacinar"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer_quando_vacinar)
         drawerConfig();

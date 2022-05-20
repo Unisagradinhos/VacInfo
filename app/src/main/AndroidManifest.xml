@@ -46,16 +46,20 @@
             android:exported="true" />
         <activity
             android:name=".quandoVacinarAdultos"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".quandoVacinar"/>
         <activity
             android:name=".quandoVacinarAdolescentes"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".quandoVacinar"/>
         <activity
             android:name=".controller.sobreController.quandoVacinarIdosos"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".quandoVacinar"/>
         <activity
             android:name=".quandoVacinarGestantes"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".quandoVacinar"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

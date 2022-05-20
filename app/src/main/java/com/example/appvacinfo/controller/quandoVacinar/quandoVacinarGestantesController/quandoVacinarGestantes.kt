@@ -11,6 +11,7 @@ class quandoVacinarGestantes : AppCompatActivity() {
     private lateinit var listViewName: ListView
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        title = "Gestantes"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.quando_vacinar_list)
         val file: String = "data/vaccines/pregnant_women.json"
