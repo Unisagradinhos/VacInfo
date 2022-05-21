@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".controller.sobreController.SobreActivity"
     android:background="@drawable/grad_home"
@@ -10,7 +10,7 @@
     >
 
 <androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     >
 
@@ -26,10 +26,11 @@
 
         <TextView
             android:id="@+id/sobre_descricao"
-            app:layout_constraintTop_toBottomOf="@+id/logoVacInfo"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/sobre_projeto"
+            app:layout_constraintTop_toBottomOf="@+id/logoVacInfo"
             android:textSize="16dp"
             android:textColor="#FAFAFA"
             android:padding="15dp"
@@ -37,8 +38,8 @@
             />
         <TextView
             android:id="@+id/desenvolvido_por"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/desenvolvido_por"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -49,8 +50,8 @@
             />
         <TextView
             android:id="@+id/sobre_alunos"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/sobre_alunos"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="@+id/desenvolvido_por"
@@ -62,9 +63,23 @@
 
         <ImageView
             android:layout_width="wrap_content"
+            android:id="@+id/unisagrado_logo"
             android:layout_height="wrap_content"
-            android:src="@drawable/unisagrado_logo"
-            tools:ignore="MissingConstraints" />
+            android:src="@drawable/ciencia_da_computacao_branci"
+            app:layout_constraintStart_toStartOf="@+id/sobre_alunos"
+            app:layout_constraintTop_toBottomOf="@+id/sobre_alunos"
+            tools:ignore="MissingConstraints"
+            android:adjustViewBounds="true"
+            />
+        <Button
+            android:id="@+id/btn_references"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/unisagrado_logo"
+            app:layout_constraintTop_toBottomOf="@+id/unisagrado_logo"
+            app:layout_constraintEnd_toEndOf="@id/unisagrado_logo"
+            android:text="Referências"
+            />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

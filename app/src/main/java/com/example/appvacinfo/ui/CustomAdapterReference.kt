@@ -8,16 +8,15 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 import com.example.appvacinfo.R
-import com.example.appvacinfo.model.Myths
+import com.example.appvacinfo.model.Reference
 
-
-class CustomAdapterMitos(var context: Context, var myths: List<Myths>) : BaseAdapter() {
+class CustomAdapterReference(var context: Context, var references: List<Reference>) : BaseAdapter() {
     override fun getCount(): Int {
-        return myths.size
+        return references.size
     }
 
     override fun getItem(position: Int): Any {
-        return myths[position]
+        return references[position]
     }
 
     override fun getItemId(position: Int): Long {
@@ -28,16 +27,16 @@ class CustomAdapterMitos(var context: Context, var myths: List<Myths>) : BaseAda
     override fun getView(position: Int, p1: View?, viewGroup: ViewGroup?): View {
         val createdView = LayoutInflater
             .from(context)
-            .inflate(R.layout.card_mitos, viewGroup, false)
+            .inflate(R.layout.card_sobre, viewGroup, false)
 
-        val mythsName: TextView = createdView.findViewById(R.id.title)
-        mythsName.text = myths[position].title
+        val name: TextView = createdView.findViewById(R.id.name)
+        name.text = references[position].name
 
-        val mythsLabel: TextView = createdView.findViewById(R.id.is_mith)
-        mythsLabel.text = myths[position].label
+//        val initials: TextView = createdView.findViewById(R.id.initials)
+//        initials.text = references[position].initials
 
-        val mythsExplanation: TextView = createdView.findViewById(R.id.explanation)
-        mythsExplanation.text = myths[position].explanation
+        val link: TextView = createdView.findViewById(R.id.link)
+        link.text = references[position].link
 
         return createdView
     }

@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.ListView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.appvacinfo.MainActivity
@@ -11,16 +13,25 @@ import com.example.appvacinfo.R
 import com.example.appvacinfo.controller.faqController.FaqActivity
 import com.example.appvacinfo.controller.mitosController.MitosActivity
 import com.example.appvacinfo.controller.ondeVacinar_controller.ondeVacinar
+import com.example.appvacinfo.controller.referenciasController.ReferenciasActivity
 import com.example.appvacinfo.quandoVacinar
 import com.google.android.material.navigation.NavigationView
 
 class SobreActivity : AppCompatActivity() {
+    private lateinit var listViewName: ListView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         title = "Sobre"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.drawer_sobre)
         drawerConfig();
+
+        val btn_references = findViewById<Button>(R.id.btn_references);
+        val tela_referencias = Intent(this, ReferenciasActivity::class.java)
+        btn_references.setOnClickListener{
+            startActivity(tela_referencias)
+        }
 
     }
 

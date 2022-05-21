@@ -30,3 +30,12 @@ fun carregarJsonMito( filename: String, context: Context): List<Myths> {
     val myths: List<Myths> = gson.fromJson(jsonFileString, listPersonType)
     return myths
 }
+
+fun carregarJsonReference( filename: String, context: Context): List<Reference> {
+    val jsonFileString = getJsonDataFromAsset(context, filename);
+    val gson = Gson()
+    val listPersonType = object : TypeToken<List<Reference>>() {}.type
+    val references: List<Reference> = gson.fromJson(jsonFileString, listPersonType)
+    return references
+}
+

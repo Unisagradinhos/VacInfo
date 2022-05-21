@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 import com.example.appvacinfo.R
-import com.example.appvacinfo.model.Myths
 import com.example.appvacinfo.model.Vaccine
 
 class CustomAdapter(var context: Context, var vaccines: List<Vaccine>) : BaseAdapter() {
