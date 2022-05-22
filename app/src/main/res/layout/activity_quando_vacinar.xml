@@ -32,22 +32,6 @@
         tools:layout_editor_absoluteY="20dp"
         tools:layout_editor_absoluteX="20dp"/>
 
-    <Spinner
-        android:id="@+id/spinner_criancas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_margin="10dp"
-        tools:ignore="MissingConstraints" />
-
-    <Spinner
-        android:id="@+id/spinner_criancas2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/spinner_criancas"
-        android:layout_margin="10dp"
-        android:entries="@array/faixa_etaria_criancas"
-        tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/btn_criancas"
         android:layout_width="match_parent"
@@ -61,6 +45,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="43dp"
         />
+
     <Button
         android:id="@+id/btn_adolescentes"
         android:layout_width="match_parent"
@@ -70,8 +55,7 @@
         android:text="Adolescentes (11 a 19 anos)"
         android:backgroundTint="#A94242"
         app:layout_constraintTop_toBottomOf="@+id/btn_criancas"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="43dp"
+
         />
     <Button
         android:id="@+id/btn_adultos"
@@ -110,5 +94,138 @@
         tools:layout_editor_absoluteX="43dp"
         />
 
+    <!--crianças-->
+
+    <Button
+        android:id="@+id/at_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Ao nascer"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/btn_criancas"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+
+        />
+    <Button
+        android:id="@+id/at_2_months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="2 meses"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_birth"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_3_months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="3 meses"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_2_months"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_6_months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="6 meses"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_3_months"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_9_months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="9 meses"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_6_months"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_12_months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="12 meses"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_9_months"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_15_months"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="15 meses"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_12_months"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_4_years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="4 anos"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_15_months"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_5_years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="5 anos"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_4_years"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/at_9_years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="9 anos"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_5_years"
+        android:backgroundTint="#FAFAFA"
+        android:textColor="@color/black"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,6 +19,7 @@ import com.example.appvacinfo.controller.sobreController.quandoVacinarIdosos
 import com.google.android.material.navigation.NavigationView
 
 class quandoVacinar : AppCompatActivity() {
+    private var clicked = false
     override fun onCreate(savedInstanceState: Bundle?) {
         title = "Quando Vacinar"
         super.onCreate(savedInstanceState)
@@ -32,12 +33,22 @@ class quandoVacinar : AppCompatActivity() {
         val button_idosos = findViewById<Button>(R.id.btn_idosos)
         val adapter = ArrayAdapter.createFromResource(this,
             R.array.faixa_etaria_criancas, android.R.layout.simple_spinner_item)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        val spinner = findViewById<Spinner>(R.id.spinner_criancas)
-        spinner.adapter = adapter
+        val btn_at_2_months = findViewById<Button>(R.id.at_2_months)
+        val btn_at_3_months = findViewById<Button>(R.id.at_3_months)
+        val btn_at_6_months = findViewById<Button>(R.id.at_6_months)
+        val btn_at_9_months = findViewById<Button>(R.id.at_9_months)
+        val btn_at_12_months = findViewById<Button>(R.id.at_12_months)
+        val btn_at_15_months = findViewById<Button>(R.id.at_15_months)
+        val btn_at_4_years = findViewById<Button>(R.id.at_4_years)
+        val btn_at_5_years = findViewById<Button>(R.id.at_5_years)
+        val btn_at_9_years = findViewById<Button>(R.id.at_9_years)
+
+
 
         button_criancas.setOnClickListener {
-            quando_vacinar_criancas();
+            clicked = !clicked
+            quando_vacinar_criancas(clicked, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
+            ,btn_at_4_years,btn_at_5_years,btn_at_9_years);
         }
         button_adolescentes.setOnClickListener {
             quando_vacinar_adolescentes();
@@ -52,16 +63,13 @@ class quandoVacinar : AppCompatActivity() {
             quando_vacinar_idosos();
         }
     }
-    private fun getValues(view: View) {
-        val spinner = findViewById<Spinner>(R.id.spinner_criancas)
-        val spinner2 = findViewById<Spinner>(R.id.spinner_criancas2)
 
-        Toast.makeText(this, "Spinner 1 " + spinner.selectedItem.toString() +
-                "\nSpinner 2 " + spinner2.selectedItem.toString(), Toast.LENGTH_LONG).show()
-    }
-    private fun quando_vacinar_criancas() {
-        val tela_QuandoVacinarCriancas = Intent(this, quandoVacinarCriancas::class.java)
-        startActivity(tela_QuandoVacinarCriancas)
+    private fun quando_vacinar_criancas(clicked: Boolean,btn_at_2_months : Button,btn_at_3_months : Button,btn_at_6_months : Button,btn_at_9_months : Button,btn_at_12_months : Button,btn_at_15_months : Button
+                                        ,btn_at_4_years : Button,btn_at_5_years : Button,btn_at_9_years : Button) {
+        setVisibility(clicked, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
+            ,btn_at_4_years,btn_at_5_years,btn_at_9_years)
+//        val tela_QuandoVacinarCriancas = Intent(this, quandoVacinarCriancas::class.java)
+//        startActivity(tela_QuandoVacinarCriancas)
     }
     private fun quando_vacinar_adolescentes() {
         val tela_QuandoVacinarAdolescentes = Intent(this, quandoVacinarAdolescentes::class.java)
@@ -129,4 +137,30 @@ class quandoVacinar : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
     //<<-- DRAWER:
+
+    private fun setVisibility(clicked: Boolean,btn_at_2_months : Button,btn_at_3_months : Button,btn_at_6_months : Button,btn_at_9_months : Button,btn_at_12_months : Button,btn_at_15_months : Button
+                              ,btn_at_4_years : Button,btn_at_5_years : Button,btn_at_9_years : Button) {
+        if(clicked){
+            btn_at_2_months.visibility = View.VISIBLE
+            btn_at_3_months.visibility = View.VISIBLE
+            btn_at_6_months.visibility = View.VISIBLE
+            btn_at_9_months.visibility = View.VISIBLE
+            btn_at_12_months.visibility = View.VISIBLE
+            btn_at_15_months.visibility = View.VISIBLE
+            btn_at_4_years.visibility = View.VISIBLE
+            btn_at_5_years.visibility = View.VISIBLE
+            btn_at_9_years.visibility = View.VISIBLE
+        }
+        else{
+            btn_at_2_months.visibility = View.GONE
+            btn_at_3_months.visibility = View.GONE
+            btn_at_6_months.visibility = View.GONE
+            btn_at_9_months.visibility = View.GONE
+            btn_at_12_months.visibility = View.GONE
+            btn_at_15_months.visibility = View.GONE
+            btn_at_4_years.visibility = View.GONE
+            btn_at_5_years.visibility = View.GONE
+            btn_at_9_years.visibility = View.GONE
+        }
+    }
 }
