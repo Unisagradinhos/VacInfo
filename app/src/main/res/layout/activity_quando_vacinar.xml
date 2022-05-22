@@ -227,5 +227,32 @@
         android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
+    <!--crianças-->
+    <!--adolescentes-->
+    <Button
+        android:id="@+id/at_12_years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="12 anos"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/btn_adolescentes"
+        android:backgroundTint="#FAFAFA"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/between_12_and_19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Entre 12 e 19 anos"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/at_12_years"
+        android:backgroundTint="#FAFAFA"
+        android:textColor="@color/black"
+        />
+    <!--adolescenters-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

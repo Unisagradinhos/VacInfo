@@ -19,7 +19,8 @@ import com.example.appvacinfo.controller.sobreController.quandoVacinarIdosos
 import com.google.android.material.navigation.NavigationView
 
 class quandoVacinar : AppCompatActivity() {
-    private var clicked = false
+    private var clicked_criancas = false
+    private var clicked_adolescentes = false
     override fun onCreate(savedInstanceState: Bundle?) {
         title = "Quando Vacinar"
         super.onCreate(savedInstanceState)
@@ -42,16 +43,20 @@ class quandoVacinar : AppCompatActivity() {
         val btn_at_4_years = findViewById<Button>(R.id.at_4_years)
         val btn_at_5_years = findViewById<Button>(R.id.at_5_years)
         val btn_at_9_years = findViewById<Button>(R.id.at_9_years)
+        val btn_at_12_years = findViewById<Button>(R.id.at_12_years)
+        val btn_between_12_and_19 = findViewById<Button>(R.id.between_12_and_19)
+
 
 
 
         button_criancas.setOnClickListener {
-            clicked = !clicked
-            quando_vacinar_criancas(clicked, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
+            clicked_criancas = !clicked_criancas
+            quando_vacinar_criancas(clicked_criancas, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
             ,btn_at_4_years,btn_at_5_years,btn_at_9_years);
         }
         button_adolescentes.setOnClickListener {
-            quando_vacinar_adolescentes();
+            clicked_adolescentes = !clicked_adolescentes
+            quando_vacinar_adolescentes(clicked_adolescentes, btn_at_12_years, btn_between_12_and_19);
         }
         button_adultos.setOnClickListener {
             quando_vacinar_adultos();
@@ -66,14 +71,15 @@ class quandoVacinar : AppCompatActivity() {
 
     private fun quando_vacinar_criancas(clicked: Boolean,btn_at_2_months : Button,btn_at_3_months : Button,btn_at_6_months : Button,btn_at_9_months : Button,btn_at_12_months : Button,btn_at_15_months : Button
                                         ,btn_at_4_years : Button,btn_at_5_years : Button,btn_at_9_years : Button) {
-        setVisibility(clicked, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
+        setVisibility_criancas(clicked, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
             ,btn_at_4_years,btn_at_5_years,btn_at_9_years)
 //        val tela_QuandoVacinarCriancas = Intent(this, quandoVacinarCriancas::class.java)
 //        startActivity(tela_QuandoVacinarCriancas)
     }
-    private fun quando_vacinar_adolescentes() {
-        val tela_QuandoVacinarAdolescentes = Intent(this, quandoVacinarAdolescentes::class.java)
-        startActivity(tela_QuandoVacinarAdolescentes)
+    private fun quando_vacinar_adolescentes(clicked: Boolean,btn_at_12_years : Button,btn_between_12_and_19 : Button) {
+        setVisibility_adolescentes(clicked,btn_at_12_years,btn_between_12_and_19)
+//        val tela_QuandoVacinarAdolescentes = Intent(this, quandoVacinarAdolescentes::class.java)
+//        startActivity(tela_QuandoVacinarAdolescentes)
     }
     private fun quando_vacinar_adultos() {
         val tela_QuandoVacinarAdultos = Intent(this, quandoVacinarAdultos::class.java)
@@ -138,7 +144,7 @@ class quandoVacinar : AppCompatActivity() {
     }
     //<<-- DRAWER:
 
-    private fun setVisibility(clicked: Boolean,btn_at_2_months : Button,btn_at_3_months : Button,btn_at_6_months : Button,btn_at_9_months : Button,btn_at_12_months : Button,btn_at_15_months : Button
+    private fun setVisibility_criancas(clicked: Boolean,btn_at_2_months : Button,btn_at_3_months : Button,btn_at_6_months : Button,btn_at_9_months : Button,btn_at_12_months : Button,btn_at_15_months : Button
                               ,btn_at_4_years : Button,btn_at_5_years : Button,btn_at_9_years : Button) {
         if(clicked){
             btn_at_2_months.visibility = View.VISIBLE
@@ -161,6 +167,16 @@ class quandoVacinar : AppCompatActivity() {
             btn_at_4_years.visibility = View.GONE
             btn_at_5_years.visibility = View.GONE
             btn_at_9_years.visibility = View.GONE
+        }
+    }
+    private fun setVisibility_adolescentes(clicked: Boolean,btn_at_12_years : Button,btn_between_12_and_19 : Button) {
+        if(clicked){
+            btn_at_12_years.visibility = View.VISIBLE
+            btn_between_12_and_19.visibility = View.VISIBLE
+        }
+        else{
+            btn_at_12_years.visibility = View.GONE
+            btn_between_12_and_19.visibility = View.GONE
         }
     }
 }
