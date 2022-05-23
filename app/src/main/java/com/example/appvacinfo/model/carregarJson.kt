@@ -15,7 +15,7 @@ fun getJsonDataFromAsset(context: Context, fileName: String): String? {
     }
     return jsonString
 }
-fun carregarJson( filename: String, context: Context): List<Vaccine> {
+fun carregarJson(filename: String, context: Context): List<Vaccine> {
     val jsonFileString = getJsonDataFromAsset(context, filename);
     val gson = Gson()
     val listPersonType = object : TypeToken<List<Vaccine>>() {}.type

@@ -47,8 +47,6 @@ class quandoVacinar : AppCompatActivity() {
         val btn_between_12_and_19 = findViewById<Button>(R.id.between_12_and_19)
 
 
-
-
         button_criancas.setOnClickListener {
             clicked_criancas = !clicked_criancas
             quando_vacinar_criancas(clicked_criancas, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
@@ -57,6 +55,12 @@ class quandoVacinar : AppCompatActivity() {
         button_adolescentes.setOnClickListener {
             clicked_adolescentes = !clicked_adolescentes
             quando_vacinar_adolescentes(clicked_adolescentes, btn_at_12_years, btn_between_12_and_19);
+        }
+        btn_at_12_years.setOnClickListener{
+            quandoVacinarAdolescentesAction("data/vaccines/teenagers/at_12_years.json")
+        }
+        btn_between_12_and_19.setOnClickListener{
+            quandoVacinarAdolescentesAction("data/vaccines/teenagers/between_12_and_19_years.json")
         }
         button_adultos.setOnClickListener {
             quando_vacinar_adultos();
@@ -78,8 +82,13 @@ class quandoVacinar : AppCompatActivity() {
     }
     private fun quando_vacinar_adolescentes(clicked: Boolean,btn_at_12_years : Button,btn_between_12_and_19 : Button) {
         setVisibility_adolescentes(clicked,btn_at_12_years,btn_between_12_and_19)
-//        val tela_QuandoVacinarAdolescentes = Intent(this, quandoVacinarAdolescentes::class.java)
-//        startActivity(tela_QuandoVacinarAdolescentes)
+        val tela_QuandoVacinarAdolescentes = Intent(this, quandoVacinarAdolescentes::class.java)
+
+    }
+    private fun quandoVacinarAdolescentesAction(fileName : String) {
+        val tela_QuandoVacinarAdolescentes = Intent(this, quandoVacinarAdolescentes::class.java)
+        tela_QuandoVacinarAdolescentes.putExtra("fileName", fileName)
+        startActivity(tela_QuandoVacinarAdolescentes)
     }
     private fun quando_vacinar_adultos() {
         val tela_QuandoVacinarAdultos = Intent(this, quandoVacinarAdultos::class.java)

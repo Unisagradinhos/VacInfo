@@ -1,19 +1,10 @@
 package com.example.appvacinfo
 
-import android.content.Intent
 import android.os.Bundle
-import android.view.MenuItem
 import android.widget.ListView
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.drawerlayout.widget.DrawerLayout
-import com.example.appvacinfo.controller.faqController.FaqActivity
-import com.example.appvacinfo.controller.mitosController.MitosActivity
-import com.example.appvacinfo.controller.ondeVacinar_controller.ondeVacinar
-import com.example.appvacinfo.controller.sobreController.SobreActivity
 import com.example.appvacinfo.model.carregarJson
 import com.example.appvacinfo.ui.CustomAdapter
-import com.google.android.material.navigation.NavigationView
 import org.json.JSONException
 
 class quandoVacinarAdultos : AppCompatActivity(){
