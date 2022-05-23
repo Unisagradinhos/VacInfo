@@ -3,26 +3,18 @@
         "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
         "description": "O primeiro reforço pode ser tomado entre os 15 e os 18 meses. Para crianças com mais de 7 anos que estiverem em atraso com a dose de reforço, recomenda-se a dTpa (acelular) do tipo adulto ou a dTpa combinada à vacina inativada para poliomielite. Nos postos públicos de vacinação é oferecida a DTPw (de células inteiras).",
         "doses": "REFORÇO",
-        "diseases_avoided": [
-            "Difteria",
-            "Tétano",
-            "Coqueluche"
-        ]
+        "diseases_avoided": "Difteria, Tétano, Coqueluche"
     },
     {
         "name": "Haemophilus influenzae tipo b",
         "description": "O reforço pode ser aplicado entre 15 e 18 meses de idade. Os postos públicos de vacinação não oferecem doses de reforço.",
         "doses": "REFORÇO",
-        "diseases_avoided": [
-            "Infecções pelo vírus Haemophilus influenzae tipo b"
-        ]
+        "diseases_avoided": "Infecções pelo vírus Haemophilus influenzae tipo b"
     },
     {
         "name": "Poliomielite (vírus inativados)",
         "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. Ela pode ser aplicada entre os 15 e 18 meses de vida. Os postos públicos de vacinação não oferecem doses de reforço.³",
         "doses": "REFORÇO",
-        "diseases_avoided": [
-            "Poliomielite"
-        ]
+        "diseases_avoided": "Poliomielite"
     }
 ]

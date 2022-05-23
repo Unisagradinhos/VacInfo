@@ -34,6 +34,7 @@ class quandoVacinar : AppCompatActivity() {
         val button_idosos = findViewById<Button>(R.id.btn_idosos)
         val adapter = ArrayAdapter.createFromResource(this,
             R.array.faixa_etaria_criancas, android.R.layout.simple_spinner_item)
+        val btn_at_birth = findViewById<Button>(R.id.at_birth)
         val btn_at_2_months = findViewById<Button>(R.id.at_2_months)
         val btn_at_3_months = findViewById<Button>(R.id.at_3_months)
         val btn_at_6_months = findViewById<Button>(R.id.at_6_months)
@@ -56,6 +57,36 @@ class quandoVacinar : AppCompatActivity() {
             clicked_adolescentes = !clicked_adolescentes
             quando_vacinar_adolescentes(clicked_adolescentes, btn_at_12_years, btn_between_12_and_19);
         }
+        btn_at_birth.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_birth.json")
+        }
+        btn_at_2_months.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_2_months.json")
+        }
+        btn_at_3_months.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_3_months.json")
+        }
+        btn_at_6_months.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_6_months.json")
+        }
+        btn_at_9_months.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_9_months.json")
+        }
+        btn_at_12_months.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_12_months.json")
+        }
+        btn_at_15_months.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_15_months.json")
+        }
+        btn_at_4_years.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_4_years.json")
+        }
+        btn_at_5_years.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_5_years.json")
+        }
+        btn_at_9_years.setOnClickListener{
+            quandoVacinarCriancasAction("data/vaccines/children/at_9_years.json")
+        }
         btn_at_12_years.setOnClickListener{
             quandoVacinarAdolescentesAction("data/vaccines/teenagers/at_12_years.json")
         }
@@ -77,8 +108,11 @@ class quandoVacinar : AppCompatActivity() {
                                         ,btn_at_4_years : Button,btn_at_5_years : Button,btn_at_9_years : Button) {
         setVisibility_criancas(clicked, btn_at_2_months,btn_at_3_months,btn_at_6_months,btn_at_9_months,btn_at_12_months,btn_at_15_months
             ,btn_at_4_years,btn_at_5_years,btn_at_9_years)
-//        val tela_QuandoVacinarCriancas = Intent(this, quandoVacinarCriancas::class.java)
-//        startActivity(tela_QuandoVacinarCriancas)
+    }
+    private fun quandoVacinarCriancasAction(fileName : String) {
+        val tela_QuandoVacinarCriancas = Intent(this, quandoVacinarCriancas::class.java)
+        tela_QuandoVacinarCriancas.putExtra("fileName", fileName)
+        startActivity(tela_QuandoVacinarCriancas)
     }
     private fun quando_vacinar_adolescentes(clicked: Boolean,btn_at_12_years : Button,btn_between_12_and_19 : Button) {
         setVisibility_adolescentes(clicked,btn_at_12_years,btn_between_12_and_19)

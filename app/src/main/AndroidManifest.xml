@@ -49,6 +49,10 @@
             android:name=".MainActivity"
             android:exported="true" />
         <activity
+            android:name=".quandoVacinarCriancas"
+            android:exported="true"
+            android:parentActivityName=".quandoVacinar" />
+        <activity
             android:name=".quandoVacinarAdultos"
             android:exported="true"
             android:parentActivityName=".quandoVacinar" />

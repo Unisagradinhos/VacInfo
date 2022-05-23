@@ -3,18 +3,12 @@
         "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
         "description": "O segundo reforço pode ser aplicado dos 4 aos 6 anos de idade. Para crianças com mais de 7 anos que estiverem em atraso com a dose de reforço, recomenda-se a DTPa (acelular) do tipo adulto ou a DTPa combinada à vacina inativada para poliomielite. Nos postos públicos de vacinação é oferecida a DTPw.",
         "doses": "Reforço com DTPa, DTPw ou dTpa",
-        "diseases_avoided": [
-            "Difteria",
-            "Tétano",
-            "Coqueluche"
-        ]
+        "diseases_avoided": "Difteria, Tétano, Coqueluche"
     },
     {
         "name": "Poliomielite (vírus inativados)",
         "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. A dose pode ser tomada dos 4 aos 6 anos de idade. Postos públicos de vacinação não oferecem doses de reforço.³",
         "doses": "REFORÇO",
-        "diseases_avoided": [
-            "Poliomielite"
-        ]
+        "diseases_avoided": "Poliomielite"
     }
 ]

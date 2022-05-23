@@ -3,16 +3,12 @@
         "name": "Meningocócicas conjugadas",
         "description": "Recomenda-se o uso rotineiro das vacinas meningocócicas conjugadas para lactentes maiores de 2 meses de idade, crianças e adolescentes. Sempre que possível utilizar preferencialmente a vacina MenACWY pelo maior espectro de proteção, inclusive para os reforços de crianças previamente vacinadas com MenC. Crianças com esquema vacinal completo com a vacina MenC podem se beneficiar de uma dose adicional da vacina MenACWY a qualquer momento, respeitando-se um intervalo mínimo de 1 mês entre as doses. No Brasil estão licenciadas as vacinas: MenC, MenACWY-CRM e MenACWY-TT a partir de 2 meses e a vacina MenACWY-D a partir de 9 meses de vida. O esquema de doses varia conforme a vacina utilizada. MenC: duas doses, aos 3 e 5 meses de idade e reforço entre 12-15 meses. Iniciando após 1 ano de idade: dose única. MenACWY-CRM: três doses aos 3, 5 e 7 meses de idade e reforço entre 12-15 meses. Iniciando entre 7 e 23 meses de idade: 2 doses, sendo que a segunda dose deve ser obrigatoriamente aplicada após a idade de 1 ano (mínimo 2 meses de intervalo). Iniciando após os 24 meses de idade: dose única. MenACWY-TT: duas doses, aos 3 e 5 meses de idade e reforço entre 12-15 meses. Iniciando após 1 ano de idade: dose única. MenACWY-D: licenciada a partir de 9 meses de idade no esquema de duas doses entre 9 e 23 meses com 3 meses de intervalo entre elas; acima de dois anos dose única. A recomendação dedoses de reforço 5 anos após (entre 5 e 6 anos de idade para os vacinados no primeiro ano de vida) e na adolescência (a partir dos 11 anos de idade) é baseada na rápida diminuição dos títulos de anticorpos associados à proteção, evidenciada com todas as vacinas meningocócicas conjugadas. Não existem dados sobre intercambialidade entre as vacinas meningocócicas conjugadas. Entretanto, se houver necessidade de intercambiá-las, deve-se adotar o esquema com maior número de doses na primovacinação. O PNI utiliza a vacina MenC no esquema de duas doses aos 3 e 5 meses, com reforço aos 15 meses, além de uma dose adicional da vacina para adolescentes entre 11 a 14 anos.",
         "doses": "Men ACWY - duas ou três doses a depender do fabricante,iniciando aos 3 meses de idade.Men C - duas doses iniciando aos 3 meses de idade.",
-        "diseases_avoided": [
-            "meningocócica C/ACWY"
-        ]
+        "diseases_avoided": "Meningocócica C/ACWY"
     },
     {
         "name": "Meningocócica B",
         "description": "",
         "doses": "Duas doses iniciando aos 3 meses de idade",
-        "diseases_avoided": [
-            "meningocócica B"
-        ]
+        "diseases_avoided": "meningocócica B"
     }
 ]

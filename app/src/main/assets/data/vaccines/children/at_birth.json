@@ -3,16 +3,12 @@
         "name": "BCG - ID",
         "description": "Deve ser aplicada em dose única o mais precocemente possível. Não se recomenda mais a revacinação de crianças que não apresentem cicatriz no local da aplicação após 6 meses. Comunicantes domiciliares de hanseníase, independente da forma clínica, podem receber uma segunda dose da vacina BCG (ver norma específica). Em recém-nascidos filhos de mãe que utilizaram imunossupressores na gestação, ou com história familiar de imunossupressão, a vacinação poderá ser adiada ou contraindicada.",
         "doses": "Dose única",
-        "diseases_avoided": [
-            "Formas graves de tuberculose"
-        ]
+        "diseases_avoided": "Formas graves de tuberculose"
     },
     {
         "name": "Vacina hepatite B",
         "description": "A primeira dose da vacina Hepatite B deve ser aplicada idealmente nas primeiras 12 horas de vida. A segunda dose está indicada com um ou dois meses de idade e a terceira 0, 2, 4 e 6 meses). Crianças maiores de 6 meses e adolescentes não vacinados devem receber 3 doses da vacina no esquema 0, 1 e 6 meses. A vacina combinada Hepatite A+B pode ser utilizada na primovacinação de crianças de 1 a 15 anos de idade, em 2 doses com intervalo de seis meses. Acima de 16 anos o esquema deve ser com três doses (0, 1 e 6 meses). Em circunstâncias excepcionais, em que não exista tempo suficiente para completar o esquema de vacinação padrão de 0, 1 e 6 meses, pode ser utilizado um esquema de três doses aos 0, 7 e 21 dias (esquema acelerado). Nestes casos uma quarta dose deverá ser feita, 12 meses após a primeira, para garantir a indução de imunidade em longo prazo. Recém-nascidos filhos de mães portadoras do vírus da hepatite B (HbsAg positivas) devem receber, além da vacina, a imunoglobulina específica para hepatite B (HBIG), na dose 0,5mL, até o sétimo dia de vida, preferencialmente logo ao nascer, no membro inferior contralateral da vacina. dose é realizada aos seis meses. Desde 2012, no Programa Nacional de Imunizações (PNI), a vacina combinada DTP/Hib/HB (denominada pelo Ministério da Saúde de Penta) foi incorporada no calendário aos 2, 4 e 6 meses de vida. Dessa forma, os lactentes que fazem uso desta vacina recebem quatro doses da vacina Hepatite B. Aqueles que forem vacinados em clínicas privadas podem manter o esquema de três doses, primeira ao nascimento e segunda e terceira dose aos 2 e 6 meses de idade. Nestas duas doses, podem ser utilizadas vacinas combinadas acelulares -DTPa/IPV/Hib/HB. Crianças com peso de nascimento igual ou inferior a 2 Kg ou idade gestacional < 33 semanas devem receber, obrigatoriamente, além da dose de vacina ao nascer, mais três doses da vacina, total de 4 doses.",
         "doses": "Três ou quatro doses a partir do nascimento",
-        "diseases_avoided": [
-            "Hepatite B"
-        ]
+        "diseases_avoided": "Hepatite B"
     }
 ]
