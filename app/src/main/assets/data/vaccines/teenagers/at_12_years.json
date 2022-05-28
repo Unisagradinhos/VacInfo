@@ -2,12 +2,12 @@
     {
         "name": "Meningocócicas conjugadas",
         "description": "Para não vacinados na infância: duas doses com intervalo de cinco anos entre as doses. Para vacinados na infância: reforço aos 11 anos ou cinco anos após o último reforço na infância. Na indisponibilidade da vacina meningocócica conjugada ACWY, substituir pela vacina meningocócica C conjugada.",
-        "doses": "REFORÇO aos 11 anos. Para os não vacinados anteriormente: duas doses, com intervalo de 5 anos",
+        "doses": "Reforço aos 11 anos. Para os não vacinados anteriormente: duas doses, com intervalo de 5 anos",
         "diseases_avoided": "Previne a doença meningocócica C/ACWY"
     },
     {
         "name": "HPV",
-        "description": "",
+        "description": "O HPV (sigla em inglês para Papilomavírus Humano) é um vírus que infecta a pele ou mucosas (oral, genital ou anal) das pessoas, provocando verrugas anogenitais e câncer, a depender do tipo de vírus. A infecção pelo HPV é uma Infecção Sexualmente Transmissível (IST).",
         "doses": "Vacinar os não vacinados anteriormente. Para menores de 15 anos: duas doses. De 15 anos em diante: três doses",
         "diseases_avoided": "HPV"
     }

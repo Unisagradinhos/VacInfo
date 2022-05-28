@@ -2,12 +2,12 @@
     {
         "name": "Rotavírus",
         "description": "A indicação é para bebês de 6 semanas até 8 meses. A primeira dose deve, obrigatoriamente, ser administrada até os 3 meses e 15 dias. E, a última dose, deve ser até os 7 meses e 29 dias.",
-        "doses": "Duas ou três doses dependendo da vacina utilizada (VR1 ou VR5). Iniciar vacinação antes das 15 semanas de vida.",
+        "doses": "Duas ou três doses dependendo da vacina utilizada (VR1 ou VR5). Iniciar a vacinação antes das 15 semanas de vida.",
         "diseases_avoided": "Diarreia por Rotavírus"
     },
     {
         "name": "Tríplice Bacteriana (DTPw, DTPa ou dTpa)",
-        "description": "Há dois tipos de vacinas para a proteção contra difteria, tétano e coqueluche: DTPa (vacina tríplice bacteriana acelular) e DTPw (vacina tríplice bacteriana de células inteiras). Deve-se dar preferência para a vacina DTPa. Embora sua eficácia seja semelhante à DTPw, os eventos adversos associados à sua administração são menos frequentes e menos intensos, por ser uma vacina atenuada. A segunda dose deve ser administrada aos 4 meses e terceira aos 6 meses de idade. É recomendado uma dose de reforço entre os 15 e 18 meses e outra entre 4 a 6 anos. A vacina DTPw está disponível nos postos públicos de vacinação.³",
+        "description": "Há dois tipos de vacinas para a proteção contra difteria, tétano e coqueluche: DTPa (vacina tríplice bacteriana acelular) e DTPw (vacina tríplice bacteriana de células inteiras). Deve-se dar preferência para a vacina DTPa. Embora sua eficácia seja semelhante à DTPw, os eventos adversos associados à sua administração são menos frequentes e menos intensos, por ser uma vacina atenuada. A segunda dose deve ser administrada aos 4 meses e terceira aos 6 meses de idade. É recomendado uma dose de reforço entre os 15 e 18 meses e outra entre 4 a 6 anos. A vacina DTPw está disponível nos postos públicos de vacinação.",
         "doses": "Três doses (DTPa ou DTPw) iniciando aos 2 meses de idade",
         "diseases_avoided": "Difteria, Tétano,Coqueluche"
     },
@@ -19,7 +19,7 @@
     },
     {
         "name": "Poliomielite (vírus inativados)",
-        "description": "O esquema se completa com a segunda dose aos 4 meses e a terceira aos 6 meses de vida, com duas doses de reforço entre 15 e 18 meses e entre 4 e 6 anos de vida. Nas duas primeiras doses do esquema básico sempre aplicar a vacina poliomielite inativada (injetável).Os postos públicos de vacinação oferecem as duas primeiras doses da vacina.³",
+        "description": "O esquema se completa com a segunda dose aos 4 meses e a terceira aos 6 meses de vida, com duas doses de reforço entre 15 e 18 meses e entre 4 e 6 anos de vida. Nas duas primeiras doses do esquema básico sempre é aplicado a vacina poliomielite inativada (injetável).Os postos públicos de vacinação oferecem as duas primeiras doses da vacina.³",
         "doses": "Três doses iniciando aos 2 meses de idade",
         "diseases_avoided": "Poliomielite"
     },

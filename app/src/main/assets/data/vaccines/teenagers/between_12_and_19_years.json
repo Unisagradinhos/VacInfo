@@ -43,13 +43,13 @@
     },
     {
         "name": "Hepatite A",
-        "description": "",
+        "description": "É produzida com o vírus inativado e estimula o sistema imunológico a produzir anticorpos contra o vírus da hepatite A, combatendo futuras infecções.",
         "doses": "Vacinar os não vacinados anteriormente",
         "diseases_avoided": "Hepatite A"
     },
     {
         "name": "Dengue",
-        "description": "",
+        "description": "Vacina tetravalente contra a dengue protege pessoas com e sem contato prévio com o vírus.",
         "doses": "Recomendada para pessoas soropositivas para dengue, de 9 a 45 anos: três doses: 0 - 6 - 12 meses",
         "diseases_avoided": "Dengue"
     }

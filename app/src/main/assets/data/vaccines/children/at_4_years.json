@@ -7,7 +7,7 @@
     },
     {
         "name": "Poliomielite (vírus inativados)",
-        "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. A dose pode ser tomada dos 4 aos 6 anos de idade. Postos públicos de vacinação não oferecem doses de reforço.³",
+        "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. A dose pode ser tomada dos 4 aos 6 anos de idade. Postos públicos de vacinação não oferecem doses de reforço.",
         "doses": "REFORÇO",
         "diseases_avoided": "Poliomielite"
     }

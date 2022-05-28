@@ -1,43 +1,43 @@
 [
     {
         "name": "Hepatite B",
-        "description": "",
+        "description": "É indicada para proteger contra a infecção por todos os subtipos conhecidos do vírus da hepatite B, em adultos e crianças.",
         "doses": "Vacinar os não vacinados anteriormente",
         "diseases_avoided": "Hepatite B"
     },
     {
         "name": "Tríplice bacteriana(DTPw, DTPa ou dTpa)",
-        "description": "",
+        "description": "Nos postos públicos de vacinação é oferecida a DTPw.",
         "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos (ou, na impossibilidade de dTpa, fazer dT)",
         "diseases_avoided": "Difteria, Tétano, Coqueluche"
     },
     {
         "name": "Pneumocócicas conjugadas",
-        "description": "",
+        "description": "Para não vacinados na infância: duas doses com intervalo de cinco anos entre as doses. Para vacinados na infância: reforço aos 11 anos ou cinco anos após o último reforço na infância. Na indisponibilidade da vacina meningocócica conjugada ACWY, substituir pela vacina meningocócica C conjugada.",
         "doses": "VPC13: uma dose",
         "diseases_avoided": "Pneumonia, Otite, Meningite, Outras infecções causadas pelo Pneumococo"
     },
     {
         "name": "Influenza (gripe)",
-        "description": "",
+        "description": "Desde que disponível, a vacina influenza 4V (tetravalente) é preferível à vacina influenza 3V (trivalente), por conferir maior cobertura das cepas circulantes. Na impossibilidade de uso da vacina 4V, utilizar a vacina 3V. Gestantes: Veja o calendário da mulher.",
         "doses": "VACINAÇÃO ANUAL",
         "diseases_avoided": "Gripe"
     },
     {
         "name": "Febre amarela",
-        "description": "",
+        "description": "Uma dose para viajantes para áreas de risco ou para atender a exigências sanitárias de determinadas viagens internacionais (pelo menos dez dias antes da viagem). Contraindicada para imunodeprimidos e gestantes. Quando os riscos de adquirir a doença superam os riscos potenciais da vacinação, o médico deve avaliar sua utilização. Contraindicada para imunodeprimidas; porém, quando os riscos de adquirir a doença superam os riscos potenciais da vacinação, o médico deve avaliar sua utilização.",
         "doses": "EM REGIÕES COM RECOMENDAÇÃO DE VACINAÇÃO - Dose única a partir dos 9 meses de idade. A recomendação de uma segunda dose, especialmente para os vacinados antes de 2 anos de idade, não é consensual, mas deve ser considerada pela possibilidade de falha vacinal.",
         "diseases_avoided": "Febre amarela"
     },
     {
         "name": "Pneumocócica 23 valente",
-        "description": "",
+        "description": "Protege contra doenças graves causadas pela bactéria pneumococo, como pneumonias, meningites e outras.",
         "doses": "Duas doses com intervalo de cinco anos",
         "diseases_avoided": ""
     },
     {
         "name": "Herpes zóster",
-        "description": "",
+        "description": "É recomendada como rotina para maiores 60 anos de idade. A vacina é indicada mesmo para quem que já teve a doença.",
         "doses": "Uma dose",
         "diseases_avoided": "Herpes zóster"
     }

@@ -1,8 +1,8 @@
 [
     {
         "name": "Meningocócicas conjugadas",
-        "description": "",
+        "description": "A doença meningocócica é, ainda hoje, um sério problema de saúde pública, estando associada a elevadas taxas de morbidade e letalidade no mundo e, em especial, no Brasil.",
         "doses": "REFORÇO",
-        "diseases_avoided": "Previne a doença meningocócica C/ACWY"
+        "diseases_avoided": "Previne a doença meningocócica C/ACWY."
     }
 ]

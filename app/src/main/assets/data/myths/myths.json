@@ -9,13 +9,13 @@
         "title": "As vacinas contêm mercúrio, que é perigoso.",
         "is_myth": true,
         "label": "Mito",
-        "explanation": "O mercúrio é um dos componentes do timerosal, utilizado como conservante em vacinas multi doses. Ele é empregado desde 1930 com o objetivo de evitar a contaminação por fungos, bactérias e outros microrganismos. A Organização Mundial da Saúde (OMS) recomenda a utilização desse conservante por considerar o mercúrio seguro e não cumulativo, já que o organismo o elimina rapidamente."
+        "explanation": "O mercúrio é um dos componentes do timerosal, utilizado como conservante em vacinas multidoses. Ele é empregado desde 1930 com o objetivo de evitar a contaminação por fungos, bactérias e outros microrganismos. A Organização Mundial da Saúde (OMS) recomenda a utilização desse conservante por considerar o mercúrio seguro e não cumulativo, já que o organismo o elimina rapidamente."
     },
     {
         "title": "As doenças evitáveis por vacinas estão quase erradicadas em meu país, por isso não há razão para me vacinar.",
         "is_myth": true,
         "label": "Mito",
-        "explanation": " Embora as doenças evitáveis por vacinação tenham se tornado raras em muitos países, os agentes infecciosos que as causam continuam a circular em algumas partes do mundo. Em um mundo altamente interligado, esses agentes podem atravessar fronteiras geográficas e infectar qualquer pessoa que não esteja protegida.\n\nDesde 2005, por exemplo, na Europa Ocidental ocorrem focos de sarampo em populações não vacinadas. Recentemente, Venezuela passou a sofrer com um surto de sarampo e já há casos registrados no norte do Brasil.\n\nA vacina imuniza o indivíduo que a recebe e as pessoas vacinadas formam um \"escudo protetor\" para as outras de seu convívio que não podem ser vacinadas. Isto se chama \"proteção de rebanho\". Programas de vacinação bem-sucedidos dependem da cooperação de cada indivíduo para assegurar o bem de todos."
+        "explanation": "Embora as doenças evitáveis por vacinação tenham se tornado raras em muitos países, os agentes infecciosos que as causam continuam a circular em algumas partes do mundo. Em um mundo altamente interligado, esses agentes podem atravessar fronteiras geográficas e infectar qualquer pessoa que não esteja protegida.\n\nDesde 2005, por exemplo, na Europa Ocidental ocorrem focos de sarampo em populações não vacinadas. Recentemente, Venezuela passou a sofrer com um surto de sarampo e já há casos registrados no norte do Brasil.\n\nA vacina imuniza o indivíduo que a recebe e as pessoas vacinadas formam um \"escudo protetor\" para as outras de seu convívio que não podem ser vacinadas. Isto se chama \"proteção de rebanho\". Programas de vacinação bem-sucedidos dependem da cooperação de cada indivíduo para assegurar o bem de todos."
     },
     {
         "title": "Aplicar mais de uma vacina ao mesmo tempo pode aumentar o risco de eventos adversos ou sobrecarregar o sistema imunológico.",
@@ -45,7 +45,7 @@
         "title": "Vacinas proporcionam 100% de proteção.",
         "is_myth": true,
         "label": "Mito",
-        "explanation": "As vacinas não proporcionam 100% de proporção, mas apresentam uma eficácia bastante alta. As vacinas com a maior taxa de proteção chegam a 95% de efetividade. Por isso, é importante manter uma cobertura alta da população, o que ajuda no bloqueio contra as doenças. É a chamada de imunidade de rebanho."
+        "explanation": "As vacinas não proporcionam 100% de proporção, mas apresentam uma eficácia bastante alta. As vacinas com a maior taxa de proteção chegam a 95% de efetividade. Por isso, é importante manter uma cobertura alta da população, o que ajuda no bloqueio contra as doenças. É chamada de imunidade de rebanho."
     },
     {
         "title": "Vacina contra gripe causa gripe.",
@@ -63,7 +63,7 @@
         "title": "Para doenças que nem sempre são graves, como catapora ou varicela, a vacinação não é necessária.",
         "is_myth": true,
         "label": "Mito",
-        "explanation": "Todas as doenças infecciosas preveníveis por vacinação são potencialmente graves, com registro de hospitalizações, sequelas ou óbitos, mesmo a catapora. Portanto, vacinar vale a pena."
+        "explanation": "Todas as doenças infecciosas preveníveis por vacinação são potencialmente graves, com registro de hospitalizações, sequelas e óbitos, mesmo a catapora. Portanto, vacinar vale a pena."
     },
     {
         "title": "Gestantes, bebês e pessoas imunodeprimidas (pacientes com aids, que passaram por transplante, em tratamento oncológico, entre outros) nunca devem ser vacinados.",
@@ -81,7 +81,7 @@
         "title": "Vacinas podem causar efeitos colaterais.",
         "is_myth": false,
         "label": "Verdadeiro",
-        "explanation": "As vacinas são testadas e somente são liberadas se comprovarem serem seguras. Contudo, como qualquer medicamento, em alguns casos, pode haver efeitos colaterais. Geralmente as vacinas injetáveis causam reações no local da injeção, como dor no braço, vermelhidão e inchaço onde elas foram aplicadas. Raramente podem ocorrer sintomas gerais e passageiros como febre ou mal-estar. Em alguns casos, ainda menos frequentes, a pessoa vacinada pode apresentar alguns sintomas parecidos com os da própria doença. Isso acontece pelo fato de a vacina ter em sua composição os componentes do microrganismo ou mesmo o próprio vírus \"enfraquecido\" (ou atenuado). Mesmo apresentando estes sintomas, é importante esclarecer que esta pessoa vacinada não transmite o microrganismo para os outros e que este quadro clínico é muito mais brando do que daquela doença que foi prevenida. Mas diante de qualquer sintoma importante após uma vacinação é necessário procurar um médico para avaliar a situação, descartando outras doenças que podem acontecer coincidentemente após uma vacinação e não terem nenhuma relação com ela."
+        "explanation": "As vacinas são testadas e somente são liberadas se comprovarem serem seguras. Contudo, como qualquer medicamento, em alguns casos, pode haver efeitos colaterais. Geralmente as vacinas injetáveis causam reações no local da injeção, como dor no braço, vermelhidão e inchaço onde elas foram aplicadas. Raramente podem ocorrer sintomas gerais e passageiros como febre ou mal-estar. Em alguns casos, ainda menos frequentes, a pessoa vacinada pode apresentar alguns sintomas parecidos com os da própria doença. Isso acontece pelo fato de a vacina ter em sua composição os componentes do microrganismo ou mesmo o próprio vírus \"enfraquecido\" (ou atenuado). Mesmo apresentando esses sintomas, é importante esclarecer que esta pessoa vacinada não transmite o microrganismo para os outros e que este quadro clínico é muito mais brando do que daquela doença que foi prevenida. Mas diante de qualquer sintoma importante após uma vacinação é necessário procurar um médico para avaliar a situação, descartando outras doenças que podem acontecer coincidentemente após uma vacinação e não terem nenhuma relação com ela."
     },
     {
         "title": "Tomar a mesma vacina duas vezes não faz mal.",
@@ -93,7 +93,7 @@
         "title": "A vacina HPV pode prevenir o câncer?",
         "is_myth": false,
         "label": "Verdadeiro",
-        "explanation": "O HPV, conhecido como papilomavírus humano, causa verrugas comuns na pele e nas genitálias. Ele tem cerca de 150 subtipos conhecidos e dois deles (HPV-16 e HPV-18) estão associados a cerca de 70% dos casos de câncer de colo do útero. Além disso, o HPV também está ligado a outros tipos de câncer, como ânus, vulva, vagina e pênis."
+        "explanation": "O HPV, conhecido como papilomavírus humano, causa verrugas comuns na pele e nas genitálias. Ele tem cerca de 150 subtipos conhecidos e dois deles (HPV-16 e HPV-18) estão associados a cerca de 70% dos casos de câncer de colo do útero. Além disso, o HPV também está ligado a outros tipos de câncer nos órgãos genitais."
     },
     {
         "title": "Com a vacinação, há a formação de anticorpos e imunização do organismo?",

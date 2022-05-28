@@ -13,7 +13,7 @@
     },
     {
         "name": "Poliomielite (vírus inativados)",
-        "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. Ela pode ser aplicada entre os 15 e 18 meses de vida. Os postos públicos de vacinação não oferecem doses de reforço.³",
+        "description": "Mesmo que a criança tome a vacina atenuada em dias de campanha, o reforço deve ser garantido com a vacina inativada. Ela pode ser aplicada entre os 15 e 18 meses de vida. Os postos públicos de vacinação não oferecem doses de reforço.",
         "doses": "REFORÇO",
         "diseases_avoided": "Poliomielite"
     }

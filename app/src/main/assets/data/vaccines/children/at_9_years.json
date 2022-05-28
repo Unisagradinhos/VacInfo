@@ -1,7 +1,7 @@
 [
     {
         "name": "Tríplice bacteriana (DTPw, DTPa ou dTpa)",
-        "description": "",
+        "description": "Há dois tipos de vacinas para a proteção contra difteria, tétano e coqueluche: DTPa (vacina tríplice bacteriana acelular) e DTPw (vacina tríplice bacteriana de células inteiras). Deve-se dar preferência para a vacina DTPa.",
         "doses": "Reforço com dTpa a partir dos 9 anos de idade e a cada dez anos(ou, na impossibilidade de dTpa, fazer dT)",
         "diseases_avoided": "Difteria, Tétano, Coqueluche"
     },
@@ -13,7 +13,7 @@
     },
     {
         "name": "Dengue",
-        "description": "",
+        "description": "Vacina tetravalente contra a dengue protege pessoas com e sem contato prévio com o vírus.",
         "doses": "Recomendada para pessoas soropositivas para dengue, de 9 a 45 anos: três doses: 0 - 6 - 12 meses",
         "diseases_avoided": "Dengue"
     }
