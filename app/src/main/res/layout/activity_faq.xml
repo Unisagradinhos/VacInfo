@@ -1,35 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     tools:context=".controller.faqController.FaqActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/what_are_vaccines_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que são vacinas?"
+        android:textSize="30dp"
+        android:paddingTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        />
     <TextView
         android:id="@+id/what_are_vaccines"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/what_are_vaccines"
+        android:textSize="17dp"
+        android:paddingTop="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:justificationMode="inter_word"
+        app:layout_constraintStart_toStartOf="@+id/what_are_vaccines_title"
+        app:layout_constraintTop_toBottomOf="@+id/what_are_vaccines_title"
         />
+
+    <TextView
+        android:id="@+id/why_to_vaccinate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por quê se vacinar?"
+        android:textSize="30dp"
+        android:paddingTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/what_are_vaccines"
+        app:layout_constraintTop_toBottomOf="@+id/what_are_vaccines"
+        android:justificationMode="inter_word"
+        />
+
 
     <TextView
         android:id="@+id/why_to_vaccinate"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/why_to_vaccinate"
-        app:layout_constraintStart_toStartOf="@+id/what_are_vaccines"
-        app:layout_constraintTop_toBottomOf="@+id/what_are_vaccines"
+        app:layout_constraintStart_toStartOf="@+id/why_to_vaccinate_title"
+        app:layout_constraintTop_toBottomOf="@+id/why_to_vaccinate_title"
+        android:textSize="17dp"
+        android:paddingTop="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:justificationMode="inter_word"
         />
+
 
     <TextView
         android:id="@+id/reasons_to_vaccinate"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/reasons_to_vaccinate"
         app:layout_constraintStart_toStartOf="@+id/why_to_vaccinate"
         app:layout_constraintTop_toBottomOf="@+id/why_to_vaccinate"
-
+        android:textSize="17dp"
+        android:paddingTop="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="15dp"
+        android:justificationMode="inter_word"
         />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

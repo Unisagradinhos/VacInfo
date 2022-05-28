@@ -24,7 +24,7 @@
         Guilherme Henrique Custodio e \n
         Natan Duarte Procópio. \n
         ]]>    </string>
-    <string name="what_are_vaccines"><![CDATA[ Vacinar, é criar artificialmente e sem riscos, um estado de proteção contra determinadas doenças infecto-contagiosas e graves. \n As vacinas são substâncias biológicas, preparadas a partir dos microrganismos causadores das doenças (bactérias ou vírus), modificados laboratorialmente, de forma a perderem a sua potência de provocar doença.]]> </string>
-    <string name="why_to_vaccinate"><![CDATA[ A imunização é imprescindível para a saúde pública, pois previne a disseminação de enfermidades graves, que causam epidemias e levam a sérias complicações.\n\n É uma medida que contribui para fortalecer a resposta imune individual e coletiva, impedindo o surto de doenças.]]></string>
-    <string name="reasons_to_vaccinate">Reforça o sistema imunológico, Evita epidemias, Salva vidas,Reduz a taxa de mortalidade</string>
+    <string name="what_are_vaccines"><![CDATA[\t\tVacinar, é criar artificialmente e sem riscos, um estado de proteção contra determinadas doenças infecto-contagiosas e graves. \n\n As vacinas são substâncias biológicas, preparadas a partir dos microrganismos causadores das doenças (bactérias ou vírus), modificados laboratorialmente, de forma a perderem a sua potência de provocar doença.]]> </string>
+    <string name="why_to_vaccinate"><![CDATA[\t\tA imunização é imprescindível para a saúde pública, pois previne a disseminação de enfermidades graves, que causam epidemias e levam a sérias complicações.\n\n\t\tÉ uma medida que contribui para fortalecer a resposta imune individual e coletiva, impedindo o surto de doenças.]]></string>
+    <string name="reasons_to_vaccinate"><![CDATA[\t\tVacinar reforça o sistema imunológico, evita epidemias, salva vidas e reduz a taxa de mortalidade]]></string>
 </resources>
