@@ -9,10 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:name="Vaccine"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:id="@+id/mitos_list"
-        tools:ignore="ExtraText,MissingConstraints" />
+        tools:ignore="ExtraText,MissingConstraints"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,7 +20,9 @@
         android:name="Vaccine"
         android:label=""
         android:id="@+id/ds_quando_vacinar_list"
-        tools:ignore="ExtraText,MissingConstraints" />
+        tools:ignore="ExtraText,MissingConstraints"
+
+        />
 
 
 
