@@ -100,13 +100,13 @@
         android:id="@+id/at_birth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="-12dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="Ao nascer"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/btn_criancas"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
 
         />
@@ -117,10 +117,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="2 meses"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_birth"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -130,10 +130,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="3 meses"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_2_months"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -143,10 +143,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="6 meses"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_3_months"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -156,10 +156,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="9 meses"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_6_months"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -169,10 +169,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="12 meses"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_9_months"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -182,10 +182,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="15 meses"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_12_months"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -195,10 +195,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="4 anos"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_15_months"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -208,10 +208,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="5 anos"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_4_years"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
         />
     <Button
@@ -221,7 +221,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="9 anos"
-        android:layout_marginTop="-15dp"
+        android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_5_years"
         android:backgroundTint="#FAFAFA"
@@ -235,11 +235,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:layout_marginTop="-12dp"
         android:text="12 anos"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/btn_adolescentes"
         android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
+        android:shadowColor="@color/white"
+
         />
     <Button
         android:id="@+id/between_12_and_19"
@@ -247,11 +250,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:layout_marginTop="-12dp"
+
         android:text="Entre 12 e 19 anos"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_12_years"
         android:backgroundTint="#FAFAFA"
         android:textColor="@color/black"
+
         />
     <!--adolescenters-->
 

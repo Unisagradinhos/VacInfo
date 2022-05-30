@@ -26,7 +26,6 @@
 
         <TextView
             android:id="@+id/sobre_descricao"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sobre_projeto"
@@ -35,7 +34,7 @@
             android:textColor="#FAFAFA"
             android:padding="15dp"
             android:justificationMode="inter_word"
-            />
+            tools:ignore="MissingConstraints" />
         <TextView
             android:id="@+id/desenvolvido_por"
             android:layout_width="wrap_content"
@@ -47,6 +46,10 @@
             app:layout_constraintTop_toBottomOf="@+id/sobre_descricao"
             android:textColor="#FAFAFA"
             android:justificationMode="inter_word"
+            android:paddingTop="10dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="5dp"
+
             />
         <TextView
             android:id="@+id/sobre_alunos"
@@ -57,20 +60,24 @@
             app:layout_constraintStart_toStartOf="@+id/desenvolvido_por"
             app:layout_constraintTop_toBottomOf="@+id/desenvolvido_por"
             android:textColor="#FAFAFA"
+            android:paddingLeft="17dp"
             android:justificationMode="inter_word"
             />
 
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="350dp"
             android:id="@+id/unisagrado_logo"
             android:layout_height="wrap_content"
             android:src="@drawable/ciencia_da_computacao_branci"
-            app:layout_constraintStart_toStartOf="@+id/sobre_alunos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sobre_alunos"
             tools:ignore="MissingConstraints"
             android:adjustViewBounds="true"
+            android:layout_gravity= "center_horizontal"
             />
+
         <Button
             android:id="@+id/btn_references"
             android:layout_width="wrap_content"
@@ -78,6 +85,7 @@
             app:layout_constraintStart_toStartOf="@+id/unisagrado_logo"
             app:layout_constraintTop_toBottomOf="@+id/unisagrado_logo"
             app:layout_constraintEnd_toEndOf="@id/unisagrado_logo"
+            android:layout_marginTop="10dp"
             android:text="Referências"
             />
 

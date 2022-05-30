@@ -44,7 +44,7 @@
                 android:textSize="22sp"
                 android:textStyle="bold"
                 app:layout_constraintBaseline_toBottomOf="@id/vacinas"
-                tools:text="Doses:"/>
+                android:text="Doses"/>
             <TextView
                 android:id="@+id/doses"
                 android:layout_width="match_parent"
