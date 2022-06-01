@@ -9,9 +9,13 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="@dimen/cardview_default_radius"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="@color/black">
+        app:strokeColor="@color/black"
+        android:backgroundTint="#EAC2C2">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -23,13 +27,13 @@
                 android:id="@+id/vacinas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:paddingLeft="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                android:textSize="25sp"
+                android:textColor="#2F032F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Name" />
@@ -39,10 +43,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:paddingTop="25dp"
                 android:paddingLeft="10dp"
-                android:paddingBottom="25dp"
-                android:textSize="20sp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
                 app:layout_constraintBaseline_toBottomOf="@+id/vacinas"
                 tools:text="Doses"/>
 
@@ -51,9 +56,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:paddingLeft="8dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:textSize="20sp"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
                 app:layout_constraintBaseline_toBottomOf="@+id/doses"
                 tools:text="Doenças Evitadas"/>
 

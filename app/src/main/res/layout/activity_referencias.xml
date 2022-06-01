@@ -2,7 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:backgroundTint="#EAC2C2"
+    android:background="#EAC2C2">
 
 
     <ListView
@@ -17,6 +19,7 @@
         android:cacheColorHint="@android:color/transparent"
         android:scrollbarAlwaysDrawVerticalTrack="false"
         android:scrollbars="none"
+        android:backgroundTint="#EAC2C2"
         />
 
 

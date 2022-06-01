@@ -3,6 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_faq.xml" value="0.2" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_mitos.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_onde_vacinar.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_quando_vacinar.xml" value="0.22" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_referencias.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/activity_sobre.xml" value="0.15" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/card_mitos.xml" value="0.22" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/card_sobre.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/drawer_faq.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/drawer_mitos.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/drawer_onde_vacinar.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/drawer_quando_vacinar.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/drawer_quando_vacinar_list.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/drawer_sobre.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/quando_vacinar_list.xml" value="0.1" />
+        <entry key="..\:/Users/Guilherme/Desktop/aaa/VacInfo/app/src/main/res/layout/vacinas.xml" value="0.25" />
         <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_drawer.xml" value="0.1" />
         <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_main.xml" value="0.1381340579710145" />
         <entry key="..\:/Users/Guilherme/Desktop/repos/VacInfo/app/src/main/res/layout/activity_onde_vacinar.xml" value="0.17255434782608695" />

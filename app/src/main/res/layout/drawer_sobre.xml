@@ -23,6 +23,7 @@
         app:menu="@menu/nav_menu"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:backgroundTint="#EAC2C2"
         />
 
 </androidx.drawerlayout.widget.DrawerLayout>

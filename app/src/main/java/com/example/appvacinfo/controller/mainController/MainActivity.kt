@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.appvacinfo.controller.faqController.FaqActivity
@@ -21,11 +22,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_drawer)
         drawerConfig();
 
-        val button_quando_vacinar = findViewById<Button>(R.id.btn_quando_vacinar)
-        val button_onde_vacinar = findViewById<Button>(R.id.btn_onde_vacinar)
-        val button_vacinas = findViewById<Button>(R.id.btn_vacinas)
-        val button_doencas = findViewById<Button>(R.id.btn_doencas)
-        val button_sobre = findViewById<Button>(R.id.btn_sobre)
+        val button_quando_vacinar = findViewById<ImageButton>(R.id.btn_quando_vacinar)
+        val button_onde_vacinar = findViewById<ImageButton>(R.id.btn_onde_vacinar)
+        val button_vacinas = findViewById<ImageButton>(R.id.btn_vacinas)
+        val button_doencas = findViewById<ImageButton>(R.id.btn_doencas)
+        val button_sobre = findViewById<ImageButton>(R.id.btn_sobre)
 
 
         button_quando_vacinar.setOnClickListener {

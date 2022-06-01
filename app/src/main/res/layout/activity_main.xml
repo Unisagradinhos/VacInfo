@@ -2,62 +2,71 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".MainActivity"
     android:fillViewport="true"
+    android:background="#EAC2C2"
     >
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
+
+    <ImageButton
         android:id="@+id/btn_quando_vacinar"
+        style="@android:style/Widget.ImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Quando Vacinar"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="102dp"
-        tools:ignore="MissingConstraints"
-        />
+        android:layout_marginTop="21dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/btnbackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
 
-    <Button
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btnquando" />
+
+    <ImageButton
         android:id="@+id/btn_onde_vacinar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Onde Vacinar"
+        android:adjustViewBounds="false"
+        android:background="@drawable/btnbackground"
+        app:layout_constraintStart_toStartOf="@+id/btn_quando_vacinar"
         app:layout_constraintTop_toBottomOf="@+id/btn_quando_vacinar"
-        tools:layout_editor_absoluteX="42dp"
+        app:srcCompat="@drawable/btnonde"
         tools:ignore="MissingConstraints" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btn_vacinas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="FAQ"
+        android:background="@drawable/btnbackground"
+        app:srcCompat="@drawable/btnfaq"
         app:layout_constraintTop_toBottomOf="@+id/btn_onde_vacinar"
-        tools:layout_editor_absoluteX="42dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_onde_vacinar"
         tools:ignore="MissingConstraints" />
-    <Button
+    <ImageButton
         android:id="@+id/btn_doencas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-
-        android:text="Mitos"
+        android:background="@drawable/btnbackground"
+        app:srcCompat="@drawable/btnmitos"
         app:layout_constraintTop_toBottomOf="@+id/btn_vacinas"
-        tools:layout_editor_absoluteX="42dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_vacinas"
         tools:ignore="MissingConstraints" />
-    <Button
+    <ImageButton
         android:id="@+id/btn_sobre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Sobre"
+        android:background="@drawable/btnbackground"
+        app:srcCompat="@drawable/btnsobre"
         app:layout_constraintTop_toBottomOf="@+id/btn_doencas"
-        tools:layout_editor_absoluteX="42dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_doencas"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

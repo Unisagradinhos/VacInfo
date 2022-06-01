@@ -4,20 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".quandoVacinar">
+    tools:context=".quandoVacinar"
+    android:background="#EAC2C2">
+
 
     <TextView
         android:id="@+id/titulo_quando_vacinar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quando Vacinar"
-        android:textSize="40sp"
         android:textColor="#5D1A45"
+        android:textSize="40sp"
         android:textStyle="bold"
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="20dp"
-        tools:layout_editor_absoluteX="20dp"/>
+        tools:layout_editor_absoluteY="20dp" />
 
     <TextView
         android:id="@+id/subtitulo_quando_vacinar"
@@ -25,12 +27,13 @@
         android:layout_height="wrap_content"
         android:text="Acompanhe o calendário de vacinação de acordo com sua idade"
         android:textSize="18sp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:justificationMode="inter_word"
+        android:padding="5dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo_quando_vacinar"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="20dp"
-        tools:layout_editor_absoluteX="20dp"/>
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_criancas"
@@ -101,12 +104,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-12dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="Ao nascer"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/btn_criancas"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#EAC2C2"
         android:textColor="@color/black"
 
         />
@@ -114,117 +115,99 @@
         android:id="@+id/at_2_months"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="2 meses"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_birth"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#F4D0D0"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_3_months"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="3 meses"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_2_months"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#EAC2C2"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_6_months"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="6 meses"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_3_months"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#F4D0D0"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_9_months"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="9 meses"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_6_months"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#EAC2C2"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_12_months"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="12 meses"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_9_months"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#F4D0D0"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_15_months"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="15 meses"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_12_months"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#EAC2C2"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_4_years"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="4 anos"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_15_months"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#F4D0D0"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_5_years"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="5 anos"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_4_years"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#EAC2C2"
         android:textColor="@color/black"
         />
     <Button
         android:id="@+id/at_9_years"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:text="9 anos"
         android:layout_marginTop="-12dp"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_5_years"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#F4D0D0"
         android:textColor="@color/black"
         />
     <!--crianças-->
@@ -233,13 +216,11 @@
         android:id="@+id/at_12_years"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:layout_marginTop="-12dp"
         android:text="12 anos"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/btn_adolescentes"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#F4D0D0"
         android:textColor="@color/black"
         android:shadowColor="@color/white"
 
@@ -248,14 +229,11 @@
         android:id="@+id/between_12_and_19"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:layout_marginTop="-12dp"
-
         android:text="Entre 12 e 19 anos"
         android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@+id/at_12_years"
-        android:backgroundTint="#FAFAFA"
+        android:backgroundTint="#EAC2C2"
         android:textColor="@color/black"
 
         />

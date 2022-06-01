@@ -12,40 +12,39 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:padding="@dimen/cardview_default_radius"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="@color/black">
+        app:strokeColor="@color/black"
+        android:backgroundTint="#EAC2C2">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/icone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_announcement_24"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="5dp"
-                android:layout_marginRight="15dp"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/title"
+<!--            <ImageView-->
+<!--                android:id="@+id/icone"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/ic_baseline_announcement_24"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="5dp"-->
+<!--                android:layout_marginRight="15dp"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/title"-->
 
-                />
+<!--                />-->
             <TextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="5dp"
-
-
                 android:paddingBottom="20dp"
                 android:paddingRight="20dp"
-
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:textColor="#2F032F"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Vacinas causam autismobbbbbbbbbbbbbbbbbbbbbbbbbbbb."
@@ -60,6 +59,7 @@
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
                 android:textSize="18sp"
+                android:textColor="#0e2e02"
                 android:textStyle="bold"
                 app:layout_constraintBaseline_toBottomOf="@id/title"
                 tools:text="Mito"

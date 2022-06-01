@@ -3,11 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DrawerActivity">
+    tools:context=".DrawerActivity"
+    android:background="#EAC2C2">
 
     <include
         android:id="@+id/app_bar_drawer"
@@ -23,6 +23,7 @@
         app:menu="@menu/nav_menu"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:backgroundTint="#EAC2C2"
         />
 
 </androidx.drawerlayout.widget.DrawerLayout>

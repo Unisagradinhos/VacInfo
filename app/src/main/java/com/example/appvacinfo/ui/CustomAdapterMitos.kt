@@ -2,6 +2,9 @@ package com.example.appvacinfo.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.graphics.Color
+import android.graphics.Color.*
+import android.hardware.camera2.params.RggbChannelVector.RED
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -35,6 +38,9 @@ class CustomAdapterMitos(var context: Context, var myths: List<Myths>) : BaseAda
 
         val mythsLabel: TextView = createdView.findViewById(R.id.is_mith)
         mythsLabel.text = myths[position].label
+        if(mythsLabel.text == "Mito"){
+            mythsLabel.setTextColor(Color.RED)
+        }
 
         val mythsExplanation: TextView = createdView.findViewById(R.id.explanation)
         mythsExplanation.text = myths[position].explanation

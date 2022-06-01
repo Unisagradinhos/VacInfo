@@ -1,25 +1,30 @@
 package com.example.appvacinfo.controller.mitosController
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import android.view.ViewGroup
 import android.widget.ListView
+import android.widget.TextView
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.appvacinfo.MainActivity
 import com.example.appvacinfo.R
-import com.example.appvacinfo.controller.sobreController.SobreActivity
 import com.example.appvacinfo.controller.faqController.FaqActivity
 import com.example.appvacinfo.controller.ondeVacinar_controller.ondeVacinar
+import com.example.appvacinfo.controller.sobreController.SobreActivity
 import com.example.appvacinfo.model.carregarJsonMito
 import com.example.appvacinfo.quandoVacinar
 import com.example.appvacinfo.ui.CustomAdapterMitos
 import com.google.android.material.navigation.NavigationView
 import org.json.JSONException
 
+
 class MitosActivity : AppCompatActivity() {
     private lateinit var listViewName: ListView
+    private lateinit var textViewName: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         title = "Mitos"
         super.onCreate(savedInstanceState)
@@ -38,7 +43,9 @@ class MitosActivity : AppCompatActivity() {
         }catch(e: JSONException){
             e.printStackTrace()
         }
+
     }
+
 
 
 
