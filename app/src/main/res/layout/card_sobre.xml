@@ -12,7 +12,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="@color/white"
-        android:backgroundTint="#EAC2C2">
+        android:backgroundTint="#F3E3E3">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -24,29 +24,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="4dp"
-                android:paddingLeft="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#2F032F"
                 android:textStyle="bold"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Name" />
+
             <TextView
                 android:id="@+id/link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:paddingTop="20dp"
-                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
                 android:paddingBottom="20dp"
-                android:textSize="20sp"
+                android:paddingRight="20dp"
+                android:textSize="16sp"
+                android:textStyle="italic"
                 app:layout_constraintBaseline_toBottomOf="@+id/name"
                 tools:text="Doses"
-
                 android:autoLink="web"
-
+                android:textColorLink="#0074CC"
                 />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

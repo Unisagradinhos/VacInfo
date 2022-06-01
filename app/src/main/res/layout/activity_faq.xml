@@ -5,8 +5,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     tools:context=".controller.faqController.FaqActivity"
-    android:backgroundTint="#EAC2C2"
-    android:background="#EAC2C2">
+    android:backgroundTint="#F3E3E3"
+    android:background="#F3E3E3">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

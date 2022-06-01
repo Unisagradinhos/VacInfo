@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="@color/black"
-        android:backgroundTint="#EAC2C2">
+        android:backgroundTint="#F3E3E3">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

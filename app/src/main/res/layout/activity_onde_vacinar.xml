@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".controller.ondeVacinar_controller.ondeVacinar"
-    android:background="#EAC2C2">
+    android:background="#F3E3E3">
     <fragment
         android:id="@+id/fragment_map_ondeVacinar"
         class='com.google.android.gms.maps.SupportMapFragment'

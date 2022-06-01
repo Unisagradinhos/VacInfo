@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#EAC2C2"
-    android:background="#EAC2C2">
+    android:backgroundTint="#F3E3E3"
+    android:background="#F3E3E3">
 
 
     <ListView
@@ -19,7 +19,7 @@
         android:cacheColorHint="@android:color/transparent"
         android:scrollbarAlwaysDrawVerticalTrack="false"
         android:scrollbars="none"
-        android:backgroundTint="#EAC2C2"
+        android:backgroundTint="#F3E3E3"
         />
 
 
