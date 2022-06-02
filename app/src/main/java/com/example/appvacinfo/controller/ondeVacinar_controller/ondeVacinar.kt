@@ -9,12 +9,14 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.example.appvacinfo.MainActivity
 import com.example.appvacinfo.R
 import com.example.appvacinfo.controller.sobreController.SobreActivity
 import com.example.appvacinfo.controller.faqController.FaqActivity
 import com.example.appvacinfo.controller.mitosController.MitosActivity
+import com.example.appvacinfo.model.BitMapHelper
 import com.example.appvacinfo.model.Locals
 import com.example.appvacinfo.model.carregarJsonLocals
 import com.example.appvacinfo.quandoVacinar
@@ -99,7 +101,13 @@ class ondeVacinar : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerC
                 local ->  val marker = mapa.addMarker(MarkerOptions()
                 .title(local.name)
                 .snippet(local.addres)
-                .position(LatLng(local.lat,local.long)))}
+                .position(LatLng(local.lat,local.long))
+                //muda o icone do mark usando um vetor
+
+                .icon(
+                    BitMapHelper.vectorToBitmap(this,R.drawable.ic_icmarkvaccine, ContextCompat.getColor(this,R.color.vermelho))
+                )
+                )}
     }
 
     override fun onMarkerClick(p0: Marker)= false
