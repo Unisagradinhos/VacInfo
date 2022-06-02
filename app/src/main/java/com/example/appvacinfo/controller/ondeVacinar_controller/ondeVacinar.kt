@@ -105,7 +105,7 @@ class ondeVacinar : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerC
                 //muda o icone do mark usando um vetor
 
                 .icon(
-                    BitMapHelper.vectorToBitmap(this,R.drawable.ic_icmarkvaccine, ContextCompat.getColor(this,R.color.roxo))
+                    BitMapHelper.vectorToBitmap(this,R.drawable.ic_icmarkvaccine, ContextCompat.getColor(this,R.color.vermelho))
                 )
                 )}
     }

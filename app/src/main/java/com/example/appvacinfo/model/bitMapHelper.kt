@@ -6,6 +6,7 @@ import android.graphics.Canvas
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import androidx.core.content.res.ResourcesCompat
+import androidx.core.graphics.drawable.DrawableCompat
 import com.google.android.gms.maps.model.BitmapDescriptor
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 
@@ -25,6 +26,7 @@ object BitMapHelper {
             )
             val canvas = Canvas(bitmap)
             vectorDrawable.setBounds(0, 0, canvas.width, canvas.height)
+            DrawableCompat.setTint(vectorDrawable, color)
             vectorDrawable.draw(canvas)
             return BitmapDescriptorFactory.fromBitmap(bitmap)
         }
