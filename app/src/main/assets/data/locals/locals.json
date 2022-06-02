@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Unidade de Saúde da Família Pousada da Esperança II",
+        "lat": -22.26864721637785,
+        "long": -49.074855810187415,
+        "addres": "R. Antônio Jerônimo da Silva, 1-105 - Centro, Bauru - SP, 17022-670"
+    },
+    {
+        "name": "Unidade de Saúde da Família Nova Bauru",
+        "lat": -22.2667934177328,
+        "long": -49.066248277035854,
+        "addres": "R. Lúcia Boni São Pedro, 2-154 - Res. Nova Bauru, Bauru - SP, 17022-152"
+    },
+    {
+        "name": "Vacinação COVID-19 - USF Vila São Paulo",
+        "lat": -22.278681768499418,
+        "long": -49.06904655021742,
+        "addres": "R. Gaudêncio Piola, s/n - Vila Sao Paulo, Bauru - SP, 17022-113"
+    },
+    {
+        "name": "UBS Jardim Godoy",
+        "lat": -22.299782638635193,
+        "long": -49.076421260896744,
+        "addres": "Alameda Flôr do Amor, Qd 10 - Parque Sao Geraldo, Bauru - SP, 17021-270"
+    },
+    {
+        "name": "UBS Mary Dota",
+        "lat": -22.29136476513343,
+        "long": -49.043977260744654,
+        "addres": "R. Pedro Prata de Oliveira, s/n - Núcleo Habitacional Mary Dota, Bauru - SP, 17026-410"
+    },
+    {
+        "name": "UBS Chapadão Mendonça",
+        "lat": -22.29740027308559,
+        "long": -49.037969112576356,
+        "addres": "R. Arlíndo Pinto Ferreira, 1-15 - Jardim Chapadao, Bauru - SP, 17026-710"
+    },
+    {
+        "name": "UBS Beija Flor",
+        "lat": -22.30470606549517,
+        "long": -49.05050039305419 ,
+        "addres": "R. Julieta G. de Mendonça, s/n - Centro, Bauru - SP, 17025-500"
+    },
+    {
+        "name": "UBS Parque Vista Alegre",
+        "lat": -22.303368728906108,
+        "long":  -49.068333269834746,
+        "addres": "R. Jacob Corso, s/n - Parque Vista Alegre, Bauru - SP, 17020-830"
+    },
+    {
+        "name": "UBS Octávio Rasi",
+        "lat": -22.305983163669442,
+        "long": -49.00217684984479,
+        "addres": "R. Paulo Leivas Macalão, Quadra 3 - Centro, Bauru - SP, 17039-220"
+    },
+    {
+        "name": "UBS Redentor",
+        "lat":  -22.31621611251793,
+        "long":  -49.03121771431222,
+        "addres": "Rua São Lucas, Quadra 3 - Jardim Redentor, Bauru - SP, 17032-251"
+    },
+    {
+        "name": "UBS Cardia",
+        "lat": -22.31902337477732,
+        "long": -49.06547804449617,
+        "addres": "R. Ezequiel Ramos, 11-78 - Vila Cardia, Bauru - SP, 17013-111"
+    },
+    {
+        "name": "UPA Geisel Redentor",
+        "lat": -22.326995691778365,
+        "long": -49.02575548277442,
+        "addres": "R. Antônio Manoel Costa, s/n - Quadra 10 - Jardim Olimpico, Bauru - SP, 17032-631"
+    },
+    {
+        "name": "Unidade de Assistência Farmacêutica Geisel/Redentor - Uaf Geisel/Redentor",
+        "lat": -22.321367395671203,
+        "long": -49.026741719025466,
+        "addres": "R. Anísio Castilho de Souza, 2-43 - Carolina, Bauru - SP, 17032-590"
+    },
+    {
+        "name": "UBS Geisel",
+        "lat": -22.33265183043828,
+        "long": -49.029503180528366,
+        "addres": "R. Anthero Donnini, s/n - NH - Nucleo Res. Pres. Geisel, 17033-660"
+    },
+    {
+        "name": "UBS Jardim Europa",
+        "lat": -22.355737011530668,
+        "long": -49.057977471319916,
+        "addres": "R. Hermes Camargo Baptista, 1064 - Jardim Europa, Bauru - SP, 17017-492"
+    },
+    {
+        "name": "Posto Vacinacao",
+        "lat": -22.329968579355857,
+        "long": -49.079348475070454,
+        "addres": "R. Quintino Bocaiúva, 5-45 - Centro, Bauru - SP, 17015-100"
+    },
+    {
+        "name": "UBS Independência",
+        "lat": -22.34416661683616,
+        "long":  -49.08813715004021,
+        "addres": "R. Cuba, 1056 - Jardim Terra Branca, Bauru - SP, 17054-280"
+    },
+    {
+        "name": "UBS Jussara Celina",
+        "lat": -22.337840380876454,
+        "long": -49.104160666674524,
+        "addres": "R. Bernardino de Campos, s/n - Centro, Bauru - SP, 17055-025"
+    },
+    {
+        "name": "USF Vila Dutra",
+        "lat": -22.322862283350354,
+        "long":-49.12291724484162,
+        "addres": "R. Luiz Barbosa Sobrinho, 1-178 - Vila Dutra, Bauru - SP, 17057-340"
+    }
+]

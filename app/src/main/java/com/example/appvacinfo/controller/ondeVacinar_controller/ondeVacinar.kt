@@ -15,6 +15,8 @@ import com.example.appvacinfo.R
 import com.example.appvacinfo.controller.sobreController.SobreActivity
 import com.example.appvacinfo.controller.faqController.FaqActivity
 import com.example.appvacinfo.controller.mitosController.MitosActivity
+import com.example.appvacinfo.model.Locals
+import com.example.appvacinfo.model.carregarJsonLocals
 import com.example.appvacinfo.quandoVacinar
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
@@ -26,6 +28,7 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.navigation.NavigationView
+import org.json.JSONException
 
 class ondeVacinar : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
     lateinit var mapa: GoogleMap
@@ -57,32 +60,46 @@ class ondeVacinar : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerC
     }
 
 
-    private fun setUpMap() {
-        if (ActivityCompat.checkSelfPermission(
-                this,
-                Manifest.permission.ACCESS_FINE_LOCATION
-            ) != PackageManager.PERMISSION_GRANTED ) {
-                ActivityCompat.requestPermissions(
-                    this, arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), LOCATION_REQUEST_CODE)
-            return
-        }
-        mapa.isMyLocationEnabled = true
-        localizacaoClient.lastLocation.addOnSuccessListener(this){
+    private fun setUpMap()
+    {
+        val file: String = "data/locals/locals.json"
+
+        try
+        {
+                val locals = carregarJsonLocals(file, this)
+                if (ActivityCompat.checkSelfPermission(this,
+                    Manifest.permission.ACCESS_FINE_LOCATION
+                    ) != PackageManager.PERMISSION_GRANTED )
+                    {
+                        ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), LOCATION_REQUEST_CODE)
+                        return
+                    }
+                mapa.isMyLocationEnabled = true
+                localizacaoClient.lastLocation.addOnSuccessListener(this)
+                {
                 location ->
-            if (location != null){
-                ultimalocalizacao = location
-                val latAtual = LatLng(location.latitude, location.longitude)
-                placeMarkerOnMap(latAtual)
-                mapa.animateCamera(CameraUpdateFactory.newLatLngZoom(latAtual,12f))
-                mapa.moveCamera(CameraUpdateFactory.newLatLngZoom(latAtual,15f))
+                if (location != null)
+                    {
+                    ultimalocalizacao = location
+                    val latAtual = LatLng(location.latitude, location.longitude)
+                    placeMarkerOnMap(locals)
+                    mapa.animateCamera(CameraUpdateFactory.newLatLngZoom(latAtual,12f))
+                    mapa.moveCamera(CameraUpdateFactory.newLatLngZoom(latAtual,15f))
+                    }
+                }
+        }catch(e: JSONException)
+            {
+                e.printStackTrace()
             }
-        }
     }
 
-    private fun placeMarkerOnMap(latAtual: LatLng) {
-        val markOptions = MarkerOptions().position(latAtual)
-        markOptions.title("$latAtual")
-        mapa.addMarker(markOptions)
+    private fun placeMarkerOnMap(locals: List<Locals>)
+    {
+        locals.forEach{
+                local ->  val marker = mapa.addMarker(MarkerOptions()
+                .title(local.name)
+                .snippet(local.addres)
+                .position(LatLng(local.lat,local.long)))}
     }
 
     override fun onMarkerClick(p0: Marker)= false

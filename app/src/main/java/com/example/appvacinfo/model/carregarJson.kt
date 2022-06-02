@@ -39,3 +39,10 @@ fun carregarJsonReference( filename: String, context: Context): List<Reference> 
     return references
 }
 
+fun carregarJsonLocals( filename: String, context: Context): List<Locals> {
+    val jsonFileString = getJsonDataFromAsset(context, filename);
+    val gson = Gson()
+    val listPersonType = object : TypeToken<List<Locals>>() {}.type
+    val locals: List<Locals> = gson.fromJson(jsonFileString, listPersonType)
+    return locals
+}
