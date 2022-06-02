@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     tools:context=".controller.sobreController.SobreActivity"
     android:background="@drawable/grad_home"
+    android:backgroundTintMode="multiply"
     android:fillViewport="true"
     >
 
@@ -49,6 +50,8 @@
             android:paddingTop="10dp"
             android:paddingStart="15dp"
             android:paddingBottom="5dp"
+            android:backgroundTint="#5D1A45"
+
 
             />
         <TextView
@@ -85,7 +88,7 @@
             app:layout_constraintStart_toStartOf="@+id/unisagrado_logo"
             app:layout_constraintTop_toBottomOf="@+id/unisagrado_logo"
             app:layout_constraintEnd_toEndOf="@id/unisagrado_logo"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="13dp"
             android:text="Referências"
             />
 

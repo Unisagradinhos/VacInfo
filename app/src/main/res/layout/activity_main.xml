@@ -6,8 +6,8 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity"
     android:fillViewport="true"
-    android:background="#F3E3E3"
     >
+<!--    android:background="#F3E3E3"-->
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">

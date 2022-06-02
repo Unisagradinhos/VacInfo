@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".quandoVacinar"
-    android:background="#F3E3E3">
+    >
 
 
     <TextView
@@ -47,6 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/subtitulo_quando_vacinar"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="43dp"
+        android:textColor="#FAFAFA"
         />
 
     <Button
@@ -58,7 +59,7 @@
         android:text="Adolescentes (11 a 19 anos)"
         android:backgroundTint="#A94242"
         app:layout_constraintTop_toBottomOf="@+id/btn_criancas"
-
+        android:textColor="#FAFAFA"
         />
     <Button
         android:id="@+id/btn_adultos"
@@ -71,6 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_adolescentes"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="43dp"
+        android:textColor="#FAFAFA"
         />
     <Button
         android:id="@+id/btn_gestantes"
@@ -83,6 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_adultos"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="43dp"
+        android:textColor="#FAFAFA"
         />
     <Button
         android:id="@+id/btn_idosos"
@@ -95,6 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_gestantes"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="43dp"
+        android:textColor="#FAFAFA"
         />
 
     <!--crianças-->
@@ -109,6 +113,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_criancas"
         android:backgroundTint="#F3E3E3"
         android:textColor="@color/black"
+
 
         />
     <Button

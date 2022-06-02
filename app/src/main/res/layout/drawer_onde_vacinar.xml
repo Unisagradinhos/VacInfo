@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DrawerActivity"
-    android:background="#F3E3E3">
+>
 
     <include
         android:id="@+id/app_bar_drawer"
@@ -24,7 +24,7 @@
         app:menu="@menu/nav_menu"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:backgroundTint="#F3E3E3"
+
         />
 
 </androidx.drawerlayout.widget.DrawerLayout>

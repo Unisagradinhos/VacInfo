@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="@color/black"
-        android:backgroundTint="#F3E3E3">
+        >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
                 android:textSize="18sp"
-                android:textColor="#0e2e02"
+                android:textColor="#257807"
                 android:textStyle="bold"
                 app:layout_constraintBaseline_toBottomOf="@id/title"
                 tools:text="Mito"
